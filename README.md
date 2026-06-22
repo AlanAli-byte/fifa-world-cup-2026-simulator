@@ -362,7 +362,7 @@ They were reminders that football is chaotic.
 
 ### Model Prediction
 
-![Cape Verde vs Spain](assets/screenshots/CS.jpeg)
+![Cape Verde vs Spain](assets/CS.jpeg)
 
 The model strongly favored Spain.
 
@@ -396,7 +396,7 @@ Everything changes.
 
 ### Model Prediction
 
-![Cape Verde vs Uruguay Prediction](assets/screenshots/CU.jpeg)
+![Cape Verde vs Uruguay Prediction](assets/CU.jpeg)
 
 The model heavily favored Uruguay.
 
@@ -418,7 +418,7 @@ The football match simply followed one of the lower-probability outcomes.
 
 ### Model Prediction
 
-![Ecuador vs Curacao Prediction](assets/screenshots/EU.jpeg)
+![Ecuador vs Curacao Prediction](assets/EU.jpeg)
 
 Ecuador were overwhelming favorites.
 
@@ -450,7 +450,7 @@ Those are part of what makes football beautiful and frustrating.
 
 ### Model Prediction
 
-![Brazil vs Haiti Prediction](assets/screenshots/BH.jpeg)
+![Brazil vs Haiti Prediction](assets/BH.jpeg)
 
 | Outcome    | Probability |
 | ---------- | ----------- |
