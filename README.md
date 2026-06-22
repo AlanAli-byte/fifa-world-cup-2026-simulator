@@ -723,7 +723,7 @@ It was learning how to take an idea, challenge its assumptions, rebuild it multi
 ### Tournament Forecast
 
 <p align="center">
-  <img src="assets/screenshots/tour.jpeg" width="900">
+  <img src="assets/tour.jpeg" width="900">
 </p>
 
 
