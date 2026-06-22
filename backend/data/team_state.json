@@ -1,0 +1,2354 @@
+{
+    "Scotland": {
+        "elo": 1773.0033775948373,
+        "form_points": 9.0,
+        "goals_scored_avg": 2.4,
+        "goals_conceded_avg": 1.0,
+        "opponent_strength_avg": 1738.1830074756842
+    },
+    "England": {
+        "elo": 1964.734347387489,
+        "form_points": 10.0,
+        "goals_scored_avg": 1.2,
+        "goals_conceded_avg": 0.4,
+        "opponent_strength_avg": 1768.3324205179051
+    },
+    "Wales": {
+        "elo": 1716.7006649331688,
+        "form_points": 9.0,
+        "goals_scored_avg": 2.2,
+        "goals_conceded_avg": 0.8,
+        "opponent_strength_avg": 1481.3989559874376
+    },
+    "Northern Ireland": {
+        "elo": 1586.929801771895,
+        "form_points": 7.0,
+        "goals_scored_avg": 0.6,
+        "goals_conceded_avg": 0.8,
+        "opponent_strength_avg": 1651.6536283554128
+    },
+    "United States": {
+        "elo": 1808.495372591077,
+        "form_points": 6.0,
+        "goals_scored_avg": 2.2,
+        "goals_conceded_avg": 2.4,
+        "opponent_strength_avg": 1880.910431390051
+    },
+    "Uruguay": {
+        "elo": 1860.5276063646036,
+        "form_points": 6.0,
+        "goals_scored_avg": 0.8,
+        "goals_conceded_avg": 1.4,
+        "opponent_strength_avg": 1840.9827424899208
+    },
+    "Austria": {
+        "elo": 1804.210129647761,
+        "form_points": 10.0,
+        "goals_scored_avg": 1.8,
+        "goals_conceded_avg": 0.6,
+        "opponent_strength_avg": 1606.0454889484652
+    },
+    "Hungary": {
+        "elo": 1741.8817866358684,
+        "form_points": 10.0,
+        "goals_scored_avg": 1.2,
+        "goals_conceded_avg": 0.8,
+        "opponent_strength_avg": 1624.8146574942818
+    },
+    "Argentina": {
+        "elo": 2046.987977770928,
+        "form_points": 15.0,
+        "goals_scored_avg": 3.4,
+        "goals_conceded_avg": 0.2,
+        "opponent_strength_avg": 1516.1328420770278
+    },
+    "Belgium": {
+        "elo": 1847.6961347784809,
+        "form_points": 13.0,
+        "goals_scored_avg": 4.0,
+        "goals_conceded_avg": 0.6,
+        "opponent_strength_avg": 1654.1663467534304
+    },
+    "France": {
+        "elo": 1999.0219210839996,
+        "form_points": 12.0,
+        "goals_scored_avg": 2.6,
+        "goals_conceded_avg": 1.0,
+        "opponent_strength_avg": 1753.1522219749295
+    },
+    "Guernsey": {
+        "elo": 1666.475303538493,
+        "form_points": 6.0,
+        "goals_scored_avg": 1.4,
+        "goals_conceded_avg": 1.2,
+        "opponent_strength_avg": 1590.8048578967196
+    },
+    "Jersey": {
+        "elo": 1731.9593290461062,
+        "form_points": 13.0,
+        "goals_scored_avg": 3.4,
+        "goals_conceded_avg": 1.2,
+        "opponent_strength_avg": 1515.759708795174
+    },
+    "Netherlands": {
+        "elo": 1917.013573832163,
+        "form_points": 10.0,
+        "goals_scored_avg": 1.8,
+        "goals_conceded_avg": 0.8,
+        "opponent_strength_avg": 1729.972554799014
+    },
+    "Guyana": {
+        "elo": 1463.67543402881,
+        "form_points": 12.0,
+        "goals_scored_avg": 2.2,
+        "goals_conceded_avg": 0.6,
+        "opponent_strength_avg": 1298.7623924742431
+    },
+    "Czechoslovakia": {
+        "elo": 1691.194474137766,
+        "form_points": 11.0,
+        "goals_scored_avg": 2.8,
+        "goals_conceded_avg": 1.0,
+        "opponent_strength_avg": 1535.5785740959518
+    },
+    "Alderney": {
+        "elo": 1183.656722614415,
+        "form_points": 3.0,
+        "goals_scored_avg": 1.2,
+        "goals_conceded_avg": 3.8,
+        "opponent_strength_avg": 1568.891291586519
+    },
+    "Switzerland": {
+        "elo": 1841.72467279732,
+        "form_points": 6.0,
+        "goals_scored_avg": 1.8,
+        "goals_conceded_avg": 1.4,
+        "opponent_strength_avg": 1795.102413671201
+    },
+    "Sweden": {
+        "elo": 1720.365200542174,
+        "form_points": 8.0,
+        "goals_scored_avg": 2.0,
+        "goals_conceded_avg": 1.8,
+        "opponent_strength_avg": 1767.8264135124125
+    },
+    "Germany": {
+        "elo": 1935.1360451262049,
+        "form_points": 15.0,
+        "goals_scored_avg": 3.6,
+        "goals_conceded_avg": 1.0,
+        "opponent_strength_avg": 1693.2770350485612
+    },
+    "Italy": {
+        "elo": 1863.6347570118687,
+        "form_points": 10.0,
+        "goals_scored_avg": 1.4,
+        "goals_conceded_avg": 1.0,
+        "opponent_strength_avg": 1562.9605057698311
+    },
+    "Chile": {
+        "elo": 1710.992285687004,
+        "form_points": 9.0,
+        "goals_scored_avg": 2.0,
+        "goals_conceded_avg": 1.8,
+        "opponent_strength_avg": 1745.2667278384265
+    },
+    "Norway": {
+        "elo": 1850.545679844151,
+        "form_points": 10.0,
+        "goals_scored_avg": 2.4,
+        "goals_conceded_avg": 1.0,
+        "opponent_strength_avg": 1752.5582385660498
+    },
+    "Russia": {
+        "elo": 1786.916976155305,
+        "form_points": 7.0,
+        "goals_scored_avg": 1.2,
+        "goals_conceded_avg": 0.8,
+        "opponent_strength_avg": 1645.9927536670352
+    },
+    "Finland": {
+        "elo": 1539.6195121929527,
+        "form_points": 7.0,
+        "goals_scored_avg": 1.4,
+        "goals_conceded_avg": 1.2,
+        "opponent_strength_avg": 1543.1524212241504
+    },
+    "Luxembourg": {
+        "elo": 1431.1670411686075,
+        "form_points": 0.0,
+        "goals_scored_avg": 0.0,
+        "goals_conceded_avg": 2.0,
+        "opponent_strength_avg": 1780.8086703004053
+    },
+    "Denmark": {
+        "elo": 1821.329798010758,
+        "form_points": 6.0,
+        "goals_scored_avg": 2.0,
+        "goals_conceded_avg": 1.6,
+        "opponent_strength_avg": 1656.0013423569476
+    },
+    "Catalonia": {
+        "elo": 1627.6716284243569,
+        "form_points": 6.0,
+        "goals_scored_avg": 1.8,
+        "goals_conceded_avg": 1.4,
+        "opponent_strength_avg": 1661.4331855881974
+    },
+    "Philippines": {
+        "elo": 1369.067842778548,
+        "form_points": 13.0,
+        "goals_scored_avg": 3.2,
+        "goals_conceded_avg": 1.0,
+        "opponent_strength_avg": 1140.3479835690162
+    },
+    "Basque Country": {
+        "elo": 1725.5141030681707,
+        "form_points": 11.0,
+        "goals_scored_avg": 2.0,
+        "goals_conceded_avg": 1.0,
+        "opponent_strength_avg": 1719.7921798811694
+    },
+    "China": {
+        "elo": 1547.9578410116878,
+        "form_points": 10.0,
+        "goals_scored_avg": 1.4,
+        "goals_conceded_avg": 1.0,
+        "opponent_strength_avg": 1603.8980670121637
+    },
+    "Brazil": {
+        "elo": 1938.4863764409008,
+        "form_points": 10.0,
+        "goals_scored_avg": 2.6,
+        "goals_conceded_avg": 1.4,
+        "opponent_strength_avg": 1825.065965140676
+    },
+    "Japan": {
+        "elo": 1900.1580381125352,
+        "form_points": 15.0,
+        "goals_scored_avg": 1.6,
+        "goals_conceded_avg": 0.0,
+        "opponent_strength_avg": 1716.197384917426
+    },
+    "Paraguay": {
+        "elo": 1816.0159900622496,
+        "form_points": 9.0,
+        "goals_scored_avg": 1.8,
+        "goals_conceded_avg": 1.0,
+        "opponent_strength_avg": 1761.0860654753528
+    },
+    "Greece": {
+        "elo": 1747.1019471969214,
+        "form_points": 6.0,
+        "goals_scored_avg": 1.0,
+        "goals_conceded_avg": 1.0,
+        "opponent_strength_avg": 1707.040335374522
+    },
+    "Spain": {
+        "elo": 2081.2257824267467,
+        "form_points": 9.0,
+        "goals_scored_avg": 1.8,
+        "goals_conceded_avg": 0.8,
+        "opponent_strength_avg": 1754.3805950613612
+    },
+    "Egypt": {
+        "elo": 1768.7081685362673,
+        "form_points": 8.0,
+        "goals_scored_avg": 1.2,
+        "goals_conceded_avg": 0.4,
+        "opponent_strength_avg": 1859.9344393612992
+    },
+    "Suriname": {
+        "elo": 1579.5716261012485,
+        "form_points": 8.0,
+        "goals_scored_avg": 1.8,
+        "goals_conceded_avg": 1.2,
+        "opponent_strength_avg": 1597.7108562839198
+    },
+    "Canada": {
+        "elo": 1818.3177912717829,
+        "form_points": 9.0,
+        "goals_scored_avg": 1.4,
+        "goals_conceded_avg": 0.6,
+        "opponent_strength_avg": 1694.4569146532206
+    },
+    "Estonia": {
+        "elo": 1402.1547524681166,
+        "form_points": 7.0,
+        "goals_scored_avg": 1.4,
+        "goals_conceded_avg": 1.8,
+        "opponent_strength_avg": 1510.0299650406264
+    },
+    "Costa Rica": {
+        "elo": 1693.6404079729098,
+        "form_points": 2.0,
+        "goals_scored_avg": 0.6,
+        "goals_conceded_avg": 2.2,
+        "opponent_strength_avg": 1736.5993578939
+    },
+    "Guatemala": {
+        "elo": 1604.7041936061166,
+        "form_points": 6.0,
+        "goals_scored_avg": 1.4,
+        "goals_conceded_avg": 3.2,
+        "opponent_strength_avg": 1677.798758995376
+    },
+    "Brittany": {
+        "elo": 1509.1470395873146,
+        "form_points": 7.0,
+        "goals_scored_avg": 1.2,
+        "goals_conceded_avg": 1.2,
+        "opponent_strength_avg": 1506.121005248624
+    },
+    "Poland": {
+        "elo": 1721.4859633841438,
+        "form_points": 7.0,
+        "goals_scored_avg": 1.6,
+        "goals_conceded_avg": 1.8,
+        "opponent_strength_avg": 1682.572053983716
+    },
+    "Yugoslavia": {
+        "elo": 1780.8914868115742,
+        "form_points": 7.0,
+        "goals_scored_avg": 1.6,
+        "goals_conceded_avg": 1.4,
+        "opponent_strength_avg": 1641.5173625660543
+    },
+    "New Zealand": {
+        "elo": 1663.6470500150258,
+        "form_points": 3.0,
+        "goals_scored_avg": 0.8,
+        "goals_conceded_avg": 2.0,
+        "opponent_strength_avg": 1748.520463973996
+    },
+    "Romania": {
+        "elo": 1642.8047793614312,
+        "form_points": 4.0,
+        "goals_scored_avg": 1.8,
+        "goals_conceded_avg": 1.6,
+        "opponent_strength_avg": 1537.898600933106
+    },
+    "Latvia": {
+        "elo": 1348.103366686529,
+        "form_points": 3.0,
+        "goals_scored_avg": 0.8,
+        "goals_conceded_avg": 2.0,
+        "opponent_strength_avg": 1570.8238683835068
+    },
+    "Galicia": {
+        "elo": 1544.1831348819742,
+        "form_points": 8.0,
+        "goals_scored_avg": 1.6,
+        "goals_conceded_avg": 2.4,
+        "opponent_strength_avg": 1651.7233987963264
+    },
+    "Portugal": {
+        "elo": 1939.314354992936,
+        "form_points": 10.0,
+        "goals_scored_avg": 2.6,
+        "goals_conceded_avg": 0.8,
+        "opponent_strength_avg": 1689.6736701964487
+    },
+    "Andalusia": {
+        "elo": 1578.1008016362416,
+        "form_points": 13.0,
+        "goals_scored_avg": 2.4,
+        "goals_conceded_avg": 0.8,
+        "opponent_strength_avg": 1523.888745645018
+    },
+    "Australia": {
+        "elo": 1816.1708777677911,
+        "form_points": 7.0,
+        "goals_scored_avg": 1.4,
+        "goals_conceded_avg": 1.2,
+        "opponent_strength_avg": 1775.7746450619463
+    },
+    "Lithuania": {
+        "elo": 1336.452236570256,
+        "form_points": 5.0,
+        "goals_scored_avg": 0.6,
+        "goals_conceded_avg": 1.4,
+        "opponent_strength_avg": 1574.499939245417
+    },
+    "Turkey": {
+        "elo": 1887.3231767159143,
+        "form_points": 13.0,
+        "goals_scored_avg": 2.0,
+        "goals_conceded_avg": 0.6,
+        "opponent_strength_avg": 1769.7277829019845
+    },
+    "Central Spain": {
+        "elo": 1490.0,
+        "form_points": 0.0,
+        "goals_scored_avg": 1.0,
+        "goals_conceded_avg": 4.0,
+        "opponent_strength_avg": 1500.0
+    },
+    "Mexico": {
+        "elo": 1867.6214172672,
+        "form_points": 11.0,
+        "goals_scored_avg": 1.8,
+        "goals_conceded_avg": 0.4,
+        "opponent_strength_avg": 1778.1104030045906
+    },
+    "Aruba": {
+        "elo": 1225.264439108743,
+        "form_points": 10.0,
+        "goals_scored_avg": 2.2,
+        "goals_conceded_avg": 1.4,
+        "opponent_strength_avg": 1222.9026440774985
+    },
+    "Republic of Ireland": {
+        "elo": 1699.4849629707994,
+        "form_points": 11.0,
+        "goals_scored_avg": 2.2,
+        "goals_conceded_avg": 0.8,
+        "opponent_strength_avg": 1616.773027288698
+    },
+    "Haiti": {
+        "elo": 1637.704052296789,
+        "form_points": 7.0,
+        "goals_scored_avg": 1.6,
+        "goals_conceded_avg": 0.8,
+        "opponent_strength_avg": 1622.5522973349684
+    },
+    "Bulgaria": {
+        "elo": 1509.309534627345,
+        "form_points": 9.0,
+        "goals_scored_avg": 2.6,
+        "goals_conceded_avg": 1.2,
+        "opponent_strength_avg": 1597.1806008841572
+    },
+    "Jamaica": {
+        "elo": 1641.3538202349164,
+        "form_points": 9.0,
+        "goals_scored_avg": 0.8,
+        "goals_conceded_avg": 0.8,
+        "opponent_strength_avg": 1535.9505368379475
+    },
+    "Kenya": {
+        "elo": 1468.3618616103297,
+        "form_points": 7.0,
+        "goals_scored_avg": 1.0,
+        "goals_conceded_avg": 2.4,
+        "opponent_strength_avg": 1538.167778048667
+    },
+    "Bolivia": {
+        "elo": 1662.1918934187302,
+        "form_points": 6.0,
+        "goals_scored_avg": 1.2,
+        "goals_conceded_avg": 1.6,
+        "opponent_strength_avg": 1688.7406826512938
+    },
+    "Peru": {
+        "elo": 1695.8394545047488,
+        "form_points": 5.0,
+        "goals_scored_avg": 1.2,
+        "goals_conceded_avg": 1.6,
+        "opponent_strength_avg": 1732.2817650161542
+    },
+    "Honduras": {
+        "elo": 1648.192359149807,
+        "form_points": 6.0,
+        "goals_scored_avg": 1.0,
+        "goals_conceded_avg": 0.8,
+        "opponent_strength_avg": 1646.7078544437434
+    },
+    "Uganda": {
+        "elo": 1523.0894586135043,
+        "form_points": 4.0,
+        "goals_scored_avg": 1.0,
+        "goals_conceded_avg": 2.2,
+        "opponent_strength_avg": 1603.4490492258074
+    },
+    "Belarus": {
+        "elo": 1530.5702772903196,
+        "form_points": 11.0,
+        "goals_scored_avg": 1.8,
+        "goals_conceded_avg": 0.8,
+        "opponent_strength_avg": 1605.168620600977
+    },
+    "El Salvador": {
+        "elo": 1482.3624152253049,
+        "form_points": 4.0,
+        "goals_scored_avg": 0.6,
+        "goals_conceded_avg": 2.0,
+        "opponent_strength_avg": 1630.6541541850452
+    },
+    "Barbados": {
+        "elo": 1212.8439630320863,
+        "form_points": 4.0,
+        "goals_scored_avg": 1.2,
+        "goals_conceded_avg": 2.2,
+        "opponent_strength_avg": 1256.2181505176895
+    },
+    "Trinidad and Tobago": {
+        "elo": 1535.4359851123638,
+        "form_points": 2.0,
+        "goals_scored_avg": 1.0,
+        "goals_conceded_avg": 3.2,
+        "opponent_strength_avg": 1618.3726433275135
+    },
+    "Cuba": {
+        "elo": 1410.8503523222157,
+        "form_points": 7.0,
+        "goals_scored_avg": 1.4,
+        "goals_conceded_avg": 1.0,
+        "opponent_strength_avg": 1418.373915764449
+    },
+    "Cura\u00e7ao": {
+        "elo": 1564.5398782234631,
+        "form_points": 4.0,
+        "goals_scored_avg": 1.2,
+        "goals_conceded_avg": 2.2,
+        "opponent_strength_avg": 1598.8273556706297
+    },
+    "Dominica": {
+        "elo": 1218.940817092324,
+        "form_points": 3.0,
+        "goals_scored_avg": 1.2,
+        "goals_conceded_avg": 2.4,
+        "opponent_strength_avg": 1318.39093847524
+    },
+    "Silesia": {
+        "elo": 1501.8947138357778,
+        "form_points": 10.0,
+        "goals_scored_avg": 3.8,
+        "goals_conceded_avg": 2.0,
+        "opponent_strength_avg": 1494.52494376996
+    },
+    "Guadeloupe": {
+        "elo": 1549.669563150138,
+        "form_points": 9.0,
+        "goals_scored_avg": 1.2,
+        "goals_conceded_avg": 1.4,
+        "opponent_strength_avg": 1534.811892782632
+    },
+    "Israel": {
+        "elo": 1606.351532795941,
+        "form_points": 5.0,
+        "goals_scored_avg": 1.2,
+        "goals_conceded_avg": 2.2,
+        "opponent_strength_avg": 1608.2625166117675
+    },
+    "French Guiana": {
+        "elo": 1407.2357606318644,
+        "form_points": 1.0,
+        "goals_scored_avg": 1.0,
+        "goals_conceded_avg": 1.8,
+        "opponent_strength_avg": 1500.5626223615886
+    },
+    "Panama": {
+        "elo": 1763.167645843426,
+        "form_points": 7.0,
+        "goals_scored_avg": 1.8,
+        "goals_conceded_avg": 2.2,
+        "opponent_strength_avg": 1706.579568360034
+    },
+    "Colombia": {
+        "elo": 1918.932978039279,
+        "form_points": 9.0,
+        "goals_scored_avg": 2.0,
+        "goals_conceded_avg": 1.4,
+        "opponent_strength_avg": 1819.3467729773745
+    },
+    "Venezuela": {
+        "elo": 1738.246863251377,
+        "form_points": 7.0,
+        "goals_scored_avg": 1.2,
+        "goals_conceded_avg": 1.0,
+        "opponent_strength_avg": 1772.0744761548417
+    },
+    "Ecuador": {
+        "elo": 1906.42196626058,
+        "form_points": 11.0,
+        "goals_scored_avg": 1.8,
+        "goals_conceded_avg": 0.6,
+        "opponent_strength_avg": 1762.1197159337412
+    },
+    "Saint Kitts and Nevis": {
+        "elo": 1327.01956423582,
+        "form_points": 7.0,
+        "goals_scored_avg": 1.8,
+        "goals_conceded_avg": 2.2,
+        "opponent_strength_avg": 1346.6509073650343
+    },
+    "Slovakia": {
+        "elo": 1682.0967212291464,
+        "form_points": 9.0,
+        "goals_scored_avg": 1.6,
+        "goals_conceded_avg": 2.2,
+        "opponent_strength_avg": 1639.5218273440248
+    },
+    "Manchukuo": {
+        "elo": 1477.600019409757,
+        "form_points": 0.0,
+        "goals_scored_avg": 0.0,
+        "goals_conceded_avg": 6.5,
+        "opponent_strength_avg": 1452.2968663204947
+    },
+    "Croatia": {
+        "elo": 1870.8732726530056,
+        "form_points": 9.0,
+        "goals_scored_avg": 1.8,
+        "goals_conceded_avg": 1.8,
+        "opponent_strength_avg": 1720.4024879241656
+    },
+    "Nicaragua": {
+        "elo": 1497.3496893703966,
+        "form_points": 4.0,
+        "goals_scored_avg": 0.8,
+        "goals_conceded_avg": 1.8,
+        "opponent_strength_avg": 1693.8297057726743
+    },
+    "Afghanistan": {
+        "elo": 1225.037014730356,
+        "form_points": 5.0,
+        "goals_scored_avg": 0.4,
+        "goals_conceded_avg": 0.8,
+        "opponent_strength_avg": 1186.8709153105417
+    },
+    "India": {
+        "elo": 1268.629228417102,
+        "form_points": 0.0,
+        "goals_scored_avg": 0.4,
+        "goals_conceded_avg": 1.8,
+        "opponent_strength_avg": 1411.8753572083665
+    },
+    "Martinique": {
+        "elo": 1495.016623822174,
+        "form_points": 2.0,
+        "goals_scored_avg": 0.4,
+        "goals_conceded_avg": 1.2,
+        "opponent_strength_avg": 1462.3577011326834
+    },
+    "Zimbabwe": {
+        "elo": 1433.6303368476956,
+        "form_points": 4.0,
+        "goals_scored_avg": 1.4,
+        "goals_conceded_avg": 1.6,
+        "opponent_strength_avg": 1622.2994583458944
+    },
+    "Iceland": {
+        "elo": 1572.255670645156,
+        "form_points": 2.0,
+        "goals_scored_avg": 0.6,
+        "goals_conceded_avg": 2.0,
+        "opponent_strength_avg": 1792.3529313355289
+    },
+    "Albania": {
+        "elo": 1636.0223918849083,
+        "form_points": 3.0,
+        "goals_scored_avg": 0.4,
+        "goals_conceded_avg": 1.2,
+        "opponent_strength_avg": 1647.4585942432866
+    },
+    "Madagascar": {
+        "elo": 1468.999346038221,
+        "form_points": 10.0,
+        "goals_scored_avg": 2.2,
+        "goals_conceded_avg": 1.6,
+        "opponent_strength_avg": 1524.6936373792764
+    },
+    "Zambia": {
+        "elo": 1536.3282132806723,
+        "form_points": 2.0,
+        "goals_scored_avg": 0.8,
+        "goals_conceded_avg": 2.0,
+        "opponent_strength_avg": 1648.2402426059366
+    },
+    "Mauritius": {
+        "elo": 1216.2224929209242,
+        "form_points": 1.0,
+        "goals_scored_avg": 0.8,
+        "goals_conceded_avg": 2.2,
+        "opponent_strength_avg": 1529.0053602423145
+    },
+    "Tanzania": {
+        "elo": 1436.0493500851414,
+        "form_points": 2.0,
+        "goals_scored_avg": 0.6,
+        "goals_conceded_avg": 1.2,
+        "opponent_strength_avg": 1563.8180793195445
+    },
+    "Iran": {
+        "elo": 1830.4572161639271,
+        "form_points": 10.0,
+        "goals_scored_avg": 2.2,
+        "goals_conceded_avg": 0.6,
+        "opponent_strength_avg": 1685.8033140504103
+    },
+    "Djibouti": {
+        "elo": 1133.054615726931,
+        "form_points": 0.0,
+        "goals_scored_avg": 0.4,
+        "goals_conceded_avg": 3.8,
+        "opponent_strength_avg": 1507.399864481415
+    },
+    "DR Congo": {
+        "elo": 1709.685593848543,
+        "form_points": 10.0,
+        "goals_scored_avg": 1.2,
+        "goals_conceded_avg": 0.2,
+        "opponent_strength_avg": 1613.103506701386
+    },
+    "Vietnam": {
+        "elo": 1485.553957666039,
+        "form_points": 12.0,
+        "goals_scored_avg": 2.2,
+        "goals_conceded_avg": 1.0,
+        "opponent_strength_avg": 1193.711526146173
+    },
+    "Macau": {
+        "elo": 959.0869863756864,
+        "form_points": 0.0,
+        "goals_scored_avg": 0.4,
+        "goals_conceded_avg": 2.4,
+        "opponent_strength_avg": 1149.1639280334475
+    },
+    "Ethiopia": {
+        "elo": 1397.7786994650417,
+        "form_points": 6.0,
+        "goals_scored_avg": 0.6,
+        "goals_conceded_avg": 1.4,
+        "opponent_strength_avg": 1520.2176299194975
+    },
+    "Puerto Rico": {
+        "elo": 1398.5021978858288,
+        "form_points": 9.0,
+        "goals_scored_avg": 1.6,
+        "goals_conceded_avg": 1.6,
+        "opponent_strength_avg": 1427.0903846210506
+    },
+    "R\u00e9union": {
+        "elo": 1555.929131369374,
+        "form_points": 9.0,
+        "goals_scored_avg": 1.6,
+        "goals_conceded_avg": 0.6,
+        "opponent_strength_avg": 1311.7177544878482
+    },
+    "Sierra Leone": {
+        "elo": 1452.4338381617138,
+        "form_points": 10.0,
+        "goals_scored_avg": 1.2,
+        "goals_conceded_avg": 0.6,
+        "opponent_strength_avg": 1390.6148370323378
+    },
+    "Zanzibar": {
+        "elo": 1488.637251364061,
+        "form_points": 10.0,
+        "goals_scored_avg": 1.2,
+        "goals_conceded_avg": 0.8,
+        "opponent_strength_avg": 1537.3097182662318
+    },
+    "South Korea": {
+        "elo": 1824.073033281324,
+        "form_points": 9.0,
+        "goals_scored_avg": 1.4,
+        "goals_conceded_avg": 1.0,
+        "opponent_strength_avg": 1621.8414484019454
+    },
+    "Ghana": {
+        "elo": 1561.6773853559712,
+        "form_points": 0.0,
+        "goals_scored_avg": 0.4,
+        "goals_conceded_avg": 2.4,
+        "opponent_strength_avg": 1854.0146928188396
+    },
+    "South Africa": {
+        "elo": 1647.5313031298515,
+        "form_points": 5.0,
+        "goals_scored_avg": 0.8,
+        "goals_conceded_avg": 1.0,
+        "opponent_strength_avg": 1666.1045556714505
+    },
+    "New Caledonia": {
+        "elo": 1555.6781029994204,
+        "form_points": 10.0,
+        "goals_scored_avg": 1.8,
+        "goals_conceded_avg": 1.2,
+        "opponent_strength_avg": 1483.038920696712
+    },
+    "Fiji": {
+        "elo": 1478.0162893229012,
+        "form_points": 0.0,
+        "goals_scored_avg": 0.0,
+        "goals_conceded_avg": 4.4,
+        "opponent_strength_avg": 1491.5821791479202
+    },
+    "Nigeria": {
+        "elo": 1793.36462998152,
+        "form_points": 11.0,
+        "goals_scored_avg": 2.2,
+        "goals_conceded_avg": 1.0,
+        "opponent_strength_avg": 1667.0601334813532
+    },
+    "Myanmar": {
+        "elo": 1238.0697169794853,
+        "form_points": 7.0,
+        "goals_scored_avg": 1.8,
+        "goals_conceded_avg": 2.0,
+        "opponent_strength_avg": 1315.5773174232404
+    },
+    "Sri Lanka": {
+        "elo": 1132.973142874225,
+        "form_points": 7.0,
+        "goals_scored_avg": 1.2,
+        "goals_conceded_avg": 1.4,
+        "opponent_strength_avg": 1250.617060933531
+    },
+    "Tahiti": {
+        "elo": 1527.7762481518637,
+        "form_points": 9.0,
+        "goals_scored_avg": 1.4,
+        "goals_conceded_avg": 1.8,
+        "opponent_strength_avg": 1532.0845523004066
+    },
+    "Gambia": {
+        "elo": 1505.7649392843102,
+        "form_points": 7.0,
+        "goals_scored_avg": 3.0,
+        "goals_conceded_avg": 1.8,
+        "opponent_strength_avg": 1482.7937174530114
+    },
+    "Hong Kong": {
+        "elo": 1356.5402901124417,
+        "form_points": 8.0,
+        "goals_scored_avg": 1.8,
+        "goals_conceded_avg": 1.4,
+        "opponent_strength_avg": 1187.8633813022593
+    },
+    "Singapore": {
+        "elo": 1380.8362999351846,
+        "form_points": 10.0,
+        "goals_scored_avg": 2.2,
+        "goals_conceded_avg": 1.2,
+        "opponent_strength_avg": 1338.3995709562078
+    },
+    "Malaysia": {
+        "elo": 1522.698873353629,
+        "form_points": 15.0,
+        "goals_scored_avg": 3.0,
+        "goals_conceded_avg": 0.4,
+        "opponent_strength_avg": 1315.2621997820556
+    },
+    "Indonesia": {
+        "elo": 1513.863869908476,
+        "form_points": 6.0,
+        "goals_scored_avg": 1.8,
+        "goals_conceded_avg": 1.0,
+        "opponent_strength_avg": 1562.5092285051182
+    },
+    "Guinea-Bissau": {
+        "elo": 1367.8320169004787,
+        "form_points": 4.0,
+        "goals_scored_avg": 0.6,
+        "goals_conceded_avg": 1.6,
+        "opponent_strength_avg": 1464.172963083648
+    },
+    "German DR": {
+        "elo": 1662.4174823889978,
+        "form_points": 13.0,
+        "goals_scored_avg": 2.2,
+        "goals_conceded_avg": 1.2,
+        "opponent_strength_avg": 1652.2135329822315
+    },
+    "Vanuatu": {
+        "elo": 1462.3427983935867,
+        "form_points": 8.0,
+        "goals_scored_avg": 1.6,
+        "goals_conceded_avg": 1.2,
+        "opponent_strength_avg": 1481.089875284301
+    },
+    "Kernow": {
+        "elo": 1559.8036490679865,
+        "form_points": 13.0,
+        "goals_scored_avg": 2.8,
+        "goals_conceded_avg": 0.8,
+        "opponent_strength_avg": 1617.029566280748
+    },
+    "Saarland": {
+        "elo": 1473.1123751064583,
+        "form_points": 1.0,
+        "goals_scored_avg": 1.0,
+        "goals_conceded_avg": 3.6,
+        "opponent_strength_avg": 1593.355501436679
+    },
+    "Taiwan": {
+        "elo": 1140.386486432782,
+        "form_points": 0.0,
+        "goals_scored_avg": 0.6,
+        "goals_conceded_avg": 3.8,
+        "opponent_strength_avg": 1402.490640069375
+    },
+    "Cambodia": {
+        "elo": 1143.3723672567148,
+        "form_points": 4.0,
+        "goals_scored_avg": 1.6,
+        "goals_conceded_avg": 1.4,
+        "opponent_strength_avg": 1305.2126818496422
+    },
+    "Lebanon": {
+        "elo": 1452.192833412412,
+        "form_points": 11.0,
+        "goals_scored_avg": 2.2,
+        "goals_conceded_avg": 0.4,
+        "opponent_strength_avg": 1260.336684437577
+    },
+    "Pakistan": {
+        "elo": 1126.8589843588632,
+        "form_points": 8.0,
+        "goals_scored_avg": 1.2,
+        "goals_conceded_avg": 1.2,
+        "opponent_strength_avg": 1276.1044295397182
+    },
+    "Vietnam Republic": {
+        "elo": 1392.5532358641296,
+        "form_points": 1.0,
+        "goals_scored_avg": 0.6,
+        "goals_conceded_avg": 2.2,
+        "opponent_strength_avg": 1491.6906390296217
+    },
+    "North Korea": {
+        "elo": 1480.3679555410888,
+        "form_points": 2.0,
+        "goals_scored_avg": 1.0,
+        "goals_conceded_avg": 2.2,
+        "opponent_strength_avg": 1657.518955678259
+    },
+    "Togo": {
+        "elo": 1457.9791756281838,
+        "form_points": 6.0,
+        "goals_scored_avg": 0.8,
+        "goals_conceded_avg": 0.8,
+        "opponent_strength_avg": 1460.8785018194426
+    },
+    "Sudan": {
+        "elo": 1471.19982894569,
+        "form_points": 3.0,
+        "goals_scored_avg": 0.4,
+        "goals_conceded_avg": 2.0,
+        "opponent_strength_avg": 1626.279204462579
+    },
+    "Malta": {
+        "elo": 1351.7694268196365,
+        "form_points": 3.0,
+        "goals_scored_avg": 1.0,
+        "goals_conceded_avg": 2.6,
+        "opponent_strength_avg": 1685.7262104731622
+    },
+    "Syria": {
+        "elo": 1567.040973131885,
+        "form_points": 8.0,
+        "goals_scored_avg": 0.8,
+        "goals_conceded_avg": 0.4,
+        "opponent_strength_avg": 1616.676331920779
+    },
+    "Tunisia": {
+        "elo": 1666.45865365243,
+        "form_points": 5.0,
+        "goals_scored_avg": 0.4,
+        "goals_conceded_avg": 1.4,
+        "opponent_strength_avg": 1754.1430880131024
+    },
+    "Malawi": {
+        "elo": 1412.6364446162384,
+        "form_points": 4.0,
+        "goals_scored_avg": 0.2,
+        "goals_conceded_avg": 0.6,
+        "opponent_strength_avg": 1348.1300251950493
+    },
+    "Morocco": {
+        "elo": 1920.1680274982116,
+        "form_points": 11.0,
+        "goals_scored_avg": 2.6,
+        "goals_conceded_avg": 0.6,
+        "opponent_strength_avg": 1684.5342772226224
+    },
+    "Benin": {
+        "elo": 1518.6111879361251,
+        "form_points": 7.0,
+        "goals_scored_avg": 0.8,
+        "goals_conceded_avg": 1.4,
+        "opponent_strength_avg": 1598.6396987847295
+    },
+    "Thailand": {
+        "elo": 1534.0324407829887,
+        "form_points": 13.0,
+        "goals_scored_avg": 3.4,
+        "goals_conceded_avg": 1.0,
+        "opponent_strength_avg": 1255.7733147292197
+    },
+    "Ivory Coast": {
+        "elo": 1758.3353836471858,
+        "form_points": 12.0,
+        "goals_scored_avg": 2.4,
+        "goals_conceded_avg": 0.8,
+        "opponent_strength_avg": 1803.0160497589145
+    },
+    "Burkina Faso": {
+        "elo": 1618.5106192545577,
+        "form_points": 7.0,
+        "goals_scored_avg": 1.6,
+        "goals_conceded_avg": 1.4,
+        "opponent_strength_avg": 1545.9378993387136
+    },
+    "Congo": {
+        "elo": 1349.9130696578009,
+        "form_points": 2.0,
+        "goals_scored_avg": 1.0,
+        "goals_conceded_avg": 1.8,
+        "opponent_strength_avg": 1474.7445344058492
+    },
+    "Cameroon": {
+        "elo": 1680.8298886536966,
+        "form_points": 7.0,
+        "goals_scored_avg": 1.0,
+        "goals_conceded_avg": 1.2,
+        "opponent_strength_avg": 1722.4270470321903
+    },
+    "Mali": {
+        "elo": 1652.4526123567257,
+        "form_points": 4.0,
+        "goals_scored_avg": 0.4,
+        "goals_conceded_avg": 0.6,
+        "opponent_strength_avg": 1735.622608303421
+    },
+    "North Vietnam": {
+        "elo": 1460.7502765133363,
+        "form_points": 7.0,
+        "goals_scored_avg": 3.2,
+        "goals_conceded_avg": 1.4,
+        "opponent_strength_avg": 1529.8440230224855
+    },
+    "Mongolia": {
+        "elo": 1099.8699581132528,
+        "form_points": 3.0,
+        "goals_scored_avg": 0.6,
+        "goals_conceded_avg": 3.0,
+        "opponent_strength_avg": 1167.7818944479325
+    },
+    "Cyprus": {
+        "elo": 1391.9708332999078,
+        "form_points": 4.0,
+        "goals_scored_avg": 1.2,
+        "goals_conceded_avg": 2.0,
+        "opponent_strength_avg": 1552.2733021937838
+    },
+    "Iraq": {
+        "elo": 1736.849891972092,
+        "form_points": 7.0,
+        "goals_scored_avg": 0.8,
+        "goals_conceded_avg": 1.0,
+        "opponent_strength_avg": 1678.1355483132795
+    },
+    "Saint Lucia": {
+        "elo": 1327.0361335689165,
+        "form_points": 3.0,
+        "goals_scored_avg": 0.8,
+        "goals_conceded_avg": 3.0,
+        "opponent_strength_avg": 1396.8657238534984
+    },
+    "Grenada": {
+        "elo": 1347.171982947424,
+        "form_points": 6.0,
+        "goals_scored_avg": 1.2,
+        "goals_conceded_avg": 1.8,
+        "opponent_strength_avg": 1398.02210490515
+    },
+    "Senegal": {
+        "elo": 1845.36643030867,
+        "form_points": 9.0,
+        "goals_scored_avg": 1.6,
+        "goals_conceded_avg": 1.4,
+        "opponent_strength_avg": 1731.749635300964
+    },
+    "Central African Republic": {
+        "elo": 1351.9236580078214,
+        "form_points": 4.0,
+        "goals_scored_avg": 0.8,
+        "goals_conceded_avg": 2.4,
+        "opponent_strength_avg": 1446.8601475356988
+    },
+    "Chad": {
+        "elo": 1272.1083248376335,
+        "form_points": 1.0,
+        "goals_scored_avg": 1.0,
+        "goals_conceded_avg": 2.2,
+        "opponent_strength_avg": 1494.0889124419275
+    },
+    "Libya": {
+        "elo": 1507.8659830433946,
+        "form_points": 7.0,
+        "goals_scored_avg": 0.8,
+        "goals_conceded_avg": 0.6,
+        "opponent_strength_avg": 1462.4755407520845
+    },
+    "Gabon": {
+        "elo": 1514.7518356231044,
+        "form_points": 0.0,
+        "goals_scored_avg": 1.2,
+        "goals_conceded_avg": 2.8,
+        "opponent_strength_avg": 1658.536112793771
+    },
+    "Guinea": {
+        "elo": 1533.8701488543518,
+        "form_points": 6.0,
+        "goals_scored_avg": 1.4,
+        "goals_conceded_avg": 1.2,
+        "opponent_strength_avg": 1459.2958119528146
+    },
+    "Kuwait": {
+        "elo": 1493.4720485460537,
+        "form_points": 5.0,
+        "goals_scored_avg": 1.4,
+        "goals_conceded_avg": 1.8,
+        "opponent_strength_avg": 1601.6891269213158
+    },
+    "Algeria": {
+        "elo": 1808.057708440492,
+        "form_points": 10.0,
+        "goals_scored_avg": 1.8,
+        "goals_conceded_avg": 0.4,
+        "opponent_strength_avg": 1769.6655158529
+    },
+    "Jordan": {
+        "elo": 1699.6225564802603,
+        "form_points": 5.0,
+        "goals_scored_avg": 1.6,
+        "goals_conceded_avg": 2.2,
+        "opponent_strength_avg": 1783.952625159079
+    },
+    "Liberia": {
+        "elo": 1402.5297415029015,
+        "form_points": 2.0,
+        "goals_scored_avg": 0.6,
+        "goals_conceded_avg": 1.4,
+        "opponent_strength_avg": 1500.2203905003776
+    },
+    "Solomon Islands": {
+        "elo": 1457.7274632245428,
+        "form_points": 0.0,
+        "goals_scored_avg": 1.2,
+        "goals_conceded_avg": 3.8,
+        "opponent_strength_avg": 1467.7462000744908
+    },
+    "Laos": {
+        "elo": 1091.9590708082137,
+        "form_points": 3.0,
+        "goals_scored_avg": 0.8,
+        "goals_conceded_avg": 3.2,
+        "opponent_strength_avg": 1357.1915379529444
+    },
+    "Saint Vincent and the Grenadines": {
+        "elo": 1382.3984802431594,
+        "form_points": 9.0,
+        "goals_scored_avg": 2.4,
+        "goals_conceded_avg": 1.2,
+        "opponent_strength_avg": 1378.5136445301644
+    },
+    "Bermuda": {
+        "elo": 1361.7902780732911,
+        "form_points": 1.0,
+        "goals_scored_avg": 0.4,
+        "goals_conceded_avg": 3.6,
+        "opponent_strength_avg": 1601.7493837781478
+    },
+    "Niger": {
+        "elo": 1478.114752081758,
+        "form_points": 3.0,
+        "goals_scored_avg": 0.8,
+        "goals_conceded_avg": 1.2,
+        "opponent_strength_avg": 1529.299837334261
+    },
+    "Montenegro": {
+        "elo": 1513.0189040692724,
+        "form_points": 9.0,
+        "goals_scored_avg": 1.8,
+        "goals_conceded_avg": 1.4,
+        "opponent_strength_avg": 1486.2425368489232
+    },
+    "Palestine": {
+        "elo": 1542.987364835263,
+        "form_points": 6.0,
+        "goals_scored_avg": 0.8,
+        "goals_conceded_avg": 0.8,
+        "opponent_strength_avg": 1621.153246036768
+    },
+    "Bahrain": {
+        "elo": 1539.1785623324854,
+        "form_points": 6.0,
+        "goals_scored_avg": 1.4,
+        "goals_conceded_avg": 2.0,
+        "opponent_strength_avg": 1438.8848231559182
+    },
+    "Papua New Guinea": {
+        "elo": 1463.2052410015133,
+        "form_points": 13.0,
+        "goals_scored_avg": 1.8,
+        "goals_conceded_avg": 0.8,
+        "opponent_strength_avg": 1494.0633626392569
+    },
+    "Mauritania": {
+        "elo": 1443.381044210061,
+        "form_points": 2.0,
+        "goals_scored_avg": 0.6,
+        "goals_conceded_avg": 1.4,
+        "opponent_strength_avg": 1653.517988125545
+    },
+    "Saudi Arabia": {
+        "elo": 1686.0615155207934,
+        "form_points": 4.0,
+        "goals_scored_avg": 1.0,
+        "goals_conceded_avg": 1.6,
+        "opponent_strength_avg": 1727.2125270910594
+    },
+    "Eswatini": {
+        "elo": 1305.4045690616626,
+        "form_points": 3.0,
+        "goals_scored_avg": 1.0,
+        "goals_conceded_avg": 2.0,
+        "opponent_strength_avg": 1530.255054949515
+    },
+    "Western Australia": {
+        "elo": 1432.221253385224,
+        "form_points": 7.0,
+        "goals_scored_avg": 1.8,
+        "goals_conceded_avg": 1.6,
+        "opponent_strength_avg": 1433.106621174648
+    },
+    "Somalia": {
+        "elo": 1123.6202851165729,
+        "form_points": 3.0,
+        "goals_scored_avg": 0.4,
+        "goals_conceded_avg": 2.0,
+        "opponent_strength_avg": 1573.2915864152712
+    },
+    "Lesotho": {
+        "elo": 1387.1530963002788,
+        "form_points": 4.0,
+        "goals_scored_avg": 0.4,
+        "goals_conceded_avg": 1.4,
+        "opponent_strength_avg": 1489.9473003719345
+    },
+    "Cook Islands": {
+        "elo": 1294.1896469794033,
+        "form_points": 3.0,
+        "goals_scored_avg": 0.2,
+        "goals_conceded_avg": 3.0,
+        "opponent_strength_avg": 1382.2414422500904
+    },
+    "Qatar": {
+        "elo": 1634.945119563636,
+        "form_points": 2.0,
+        "goals_scored_avg": 0.2,
+        "goals_conceded_avg": 1.2,
+        "opponent_strength_avg": 1591.140059312031
+    },
+    "Antigua and Barbuda": {
+        "elo": 1213.7124916314594,
+        "form_points": 2.0,
+        "goals_scored_avg": 0.2,
+        "goals_conceded_avg": 1.0,
+        "opponent_strength_avg": 1378.2979066284836
+    },
+    "Faroe Islands": {
+        "elo": 1410.8908354818586,
+        "form_points": 9.0,
+        "goals_scored_avg": 1.2,
+        "goals_conceded_avg": 1.2,
+        "opponent_strength_avg": 1496.901496346192
+    },
+    "Bangladesh": {
+        "elo": 1217.0574882397189,
+        "form_points": 5.0,
+        "goals_scored_avg": 1.4,
+        "goals_conceded_avg": 2.0,
+        "opponent_strength_avg": 1349.4337587233665
+    },
+    "Yemen": {
+        "elo": 1312.3378252063328,
+        "form_points": 11.0,
+        "goals_scored_avg": 3.6,
+        "goals_conceded_avg": 0.2,
+        "opponent_strength_avg": 1122.3065814794893
+    },
+    "Oman": {
+        "elo": 1590.5501357476562,
+        "form_points": 5.0,
+        "goals_scored_avg": 0.6,
+        "goals_conceded_avg": 1.0,
+        "opponent_strength_avg": 1576.6417202259704
+    },
+    "Yemen DPR": {
+        "elo": 1378.5019202914682,
+        "form_points": 1.0,
+        "goals_scored_avg": 0.6,
+        "goals_conceded_avg": 2.4,
+        "opponent_strength_avg": 1570.100784729577
+    },
+    "Burundi": {
+        "elo": 1384.7927525616308,
+        "form_points": 1.0,
+        "goals_scored_avg": 0.0,
+        "goals_conceded_avg": 1.2,
+        "opponent_strength_avg": 1540.809659942287
+    },
+    "Mozambique": {
+        "elo": 1502.1569876446488,
+        "form_points": 4.0,
+        "goals_scored_avg": 1.2,
+        "goals_conceded_avg": 2.2,
+        "opponent_strength_avg": 1584.806095204127
+    },
+    "Guam": {
+        "elo": 1083.1131805838877,
+        "form_points": 6.0,
+        "goals_scored_avg": 1.8,
+        "goals_conceded_avg": 3.0,
+        "opponent_strength_avg": 1254.0947184110516
+    },
+    "Angola": {
+        "elo": 1552.993066410003,
+        "form_points": 6.0,
+        "goals_scored_avg": 1.2,
+        "goals_conceded_avg": 1.2,
+        "opponent_strength_avg": 1563.9611311555486
+    },
+    "Dominican Republic": {
+        "elo": 1482.9750239834311,
+        "form_points": 6.0,
+        "goals_scored_avg": 1.0,
+        "goals_conceded_avg": 0.8,
+        "opponent_strength_avg": 1528.0725370579305
+    },
+    "Seychelles": {
+        "elo": 1080.9414069300965,
+        "form_points": 0.0,
+        "goals_scored_avg": 0.0,
+        "goals_conceded_avg": 4.8,
+        "opponent_strength_avg": 1535.5617760873988
+    },
+    "Rwanda": {
+        "elo": 1447.8836093961288,
+        "form_points": 6.0,
+        "goals_scored_avg": 1.0,
+        "goals_conceded_avg": 1.0,
+        "opponent_strength_avg": 1523.4252386175915
+    },
+    "S\u00e3o Tom\u00e9 and Pr\u00edncipe": {
+        "elo": 1166.503395666826,
+        "form_points": 0.0,
+        "goals_scored_avg": 0.6,
+        "goals_conceded_avg": 3.2,
+        "opponent_strength_avg": 1521.6432412258046
+    },
+    "Botswana": {
+        "elo": 1395.7015261028478,
+        "form_points": 1.0,
+        "goals_scored_avg": 0.4,
+        "goals_conceded_avg": 2.4,
+        "opponent_strength_avg": 1600.8205601473708
+    },
+    "Northern Cyprus": {
+        "elo": 1629.5405642186536,
+        "form_points": 11.0,
+        "goals_scored_avg": 3.4,
+        "goals_conceded_avg": 1.2,
+        "opponent_strength_avg": 1535.659615294359
+    },
+    "Cape Verde": {
+        "elo": 1604.121376287359,
+        "form_points": 5.0,
+        "goals_scored_avg": 1.4,
+        "goals_conceded_avg": 1.8,
+        "opponent_strength_avg": 1621.4293923716905
+    },
+    "Kyrgyzstan": {
+        "elo": 1473.479862763394,
+        "form_points": 3.0,
+        "goals_scored_avg": 1.0,
+        "goals_conceded_avg": 1.8,
+        "opponent_strength_avg": 1517.7338857303282
+    },
+    "Georgia": {
+        "elo": 1639.0671234228828,
+        "form_points": 5.0,
+        "goals_scored_avg": 1.2,
+        "goals_conceded_avg": 1.8,
+        "opponent_strength_avg": 1631.9534366835576
+    },
+    "Azerbaijan": {
+        "elo": 1401.7563139958208,
+        "form_points": 4.0,
+        "goals_scored_avg": 1.6,
+        "goals_conceded_avg": 1.8,
+        "opponent_strength_avg": 1538.1714703885814
+    },
+    "Comoros": {
+        "elo": 1486.084896261034,
+        "form_points": 3.0,
+        "goals_scored_avg": 0.0,
+        "goals_conceded_avg": 0.6,
+        "opponent_strength_avg": 1597.3945973201214
+    },
+    "Kiribati": {
+        "elo": 1415.0956056740065,
+        "form_points": 0.0,
+        "goals_scored_avg": 0.2,
+        "goals_conceded_avg": 11.8,
+        "opponent_strength_avg": 1491.5858893559966
+    },
+    "Wallis Islands and Futuna": {
+        "elo": 1397.958908711986,
+        "form_points": 3.0,
+        "goals_scored_avg": 1.4,
+        "goals_conceded_avg": 6.4,
+        "opponent_strength_avg": 1560.6963075945407
+    },
+    "Tonga": {
+        "elo": 1232.480829102263,
+        "form_points": 6.0,
+        "goals_scored_avg": 2.0,
+        "goals_conceded_avg": 2.4,
+        "opponent_strength_avg": 1298.8914281502014
+    },
+    "United Arab Emirates": {
+        "elo": 1650.42606656952,
+        "form_points": 5.0,
+        "goals_scored_avg": 1.4,
+        "goals_conceded_avg": 1.4,
+        "opponent_strength_avg": 1671.7634417052136
+    },
+    "Brunei": {
+        "elo": 1044.488394615093,
+        "form_points": 3.0,
+        "goals_scored_avg": 0.4,
+        "goals_conceded_avg": 3.6,
+        "opponent_strength_avg": 1226.4558230032612
+    },
+    "Equatorial Guinea": {
+        "elo": 1454.004524265023,
+        "form_points": 4.0,
+        "goals_scored_avg": 0.8,
+        "goals_conceded_avg": 1.4,
+        "opponent_strength_avg": 1569.732013988778
+    },
+    "Liechtenstein": {
+        "elo": 1051.84642824256,
+        "form_points": 3.0,
+        "goals_scored_avg": 0.4,
+        "goals_conceded_avg": 2.8,
+        "opponent_strength_avg": 1474.636220170634
+    },
+    "Nepal": {
+        "elo": 1157.7830309916465,
+        "form_points": 2.0,
+        "goals_scored_avg": 0.8,
+        "goals_conceded_avg": 1.6,
+        "opponent_strength_avg": 1275.6142464626828
+    },
+    "Greenland": {
+        "elo": 1460.4244499020626,
+        "form_points": 5.0,
+        "goals_scored_avg": 1.2,
+        "goals_conceded_avg": 2.8,
+        "opponent_strength_avg": 1483.3680417023663
+    },
+    "Niue": {
+        "elo": 1494.0680952593289,
+        "form_points": 0.0,
+        "goals_scored_avg": 0.0,
+        "goals_conceded_avg": 14.0,
+        "opponent_strength_avg": 1650.0164528936962
+    },
+    "Samoa": {
+        "elo": 1363.0714945182635,
+        "form_points": 6.0,
+        "goals_scored_avg": 1.2,
+        "goals_conceded_avg": 2.0,
+        "opponent_strength_avg": 1367.4949567776916
+    },
+    "American Samoa": {
+        "elo": 1181.853865217559,
+        "form_points": 0.0,
+        "goals_scored_avg": 0.8,
+        "goals_conceded_avg": 5.6,
+        "opponent_strength_avg": 1284.4950058797697
+    },
+    "Belize": {
+        "elo": 1334.069508571442,
+        "form_points": 6.0,
+        "goals_scored_avg": 1.8,
+        "goals_conceded_avg": 1.6,
+        "opponent_strength_avg": 1398.4057106775922
+    },
+    "Maldives": {
+        "elo": 1111.8554346856995,
+        "form_points": 4.0,
+        "goals_scored_avg": 0.8,
+        "goals_conceded_avg": 1.6,
+        "opponent_strength_avg": 1292.4924691002234
+    },
+    "Anguilla": {
+        "elo": 1034.97186611339,
+        "form_points": 6.0,
+        "goals_scored_avg": 1.0,
+        "goals_conceded_avg": 3.0,
+        "opponent_strength_avg": 1275.4497953096193
+    },
+    "Cayman Islands": {
+        "elo": 1174.634216621092,
+        "form_points": 7.0,
+        "goals_scored_avg": 1.6,
+        "goals_conceded_avg": 1.4,
+        "opponent_strength_avg": 1083.3104571727083
+    },
+    "Palau": {
+        "elo": 1487.0107244189155,
+        "form_points": 0.0,
+        "goals_scored_avg": 2.0,
+        "goals_conceded_avg": 6.0,
+        "opponent_strength_avg": 1392.8711860282929
+    },
+    "Sint Maarten": {
+        "elo": 1341.034782145329,
+        "form_points": 10.0,
+        "goals_scored_avg": 1.4,
+        "goals_conceded_avg": 2.4,
+        "opponent_strength_avg": 1350.3946339820145
+    },
+    "Namibia": {
+        "elo": 1402.1213893629342,
+        "form_points": 0.0,
+        "goals_scored_avg": 0.2,
+        "goals_conceded_avg": 2.6,
+        "opponent_strength_avg": 1509.5695278920448
+    },
+    "\u00c5land Islands": {
+        "elo": 1498.7766022669316,
+        "form_points": 6.0,
+        "goals_scored_avg": 1.0,
+        "goals_conceded_avg": 1.8,
+        "opponent_strength_avg": 1544.7191001509132
+    },
+    "Ynys M\u00f4n": {
+        "elo": 1606.6657102228464,
+        "form_points": 12.0,
+        "goals_scored_avg": 2.4,
+        "goals_conceded_avg": 1.4,
+        "opponent_strength_avg": 1524.0038808461732
+    },
+    "Saint Martin": {
+        "elo": 1281.1027397399796,
+        "form_points": 6.0,
+        "goals_scored_avg": 1.2,
+        "goals_conceded_avg": 2.0,
+        "opponent_strength_avg": 1289.3869467536529
+    },
+    "San Marino": {
+        "elo": 978.3914085176458,
+        "form_points": 1.0,
+        "goals_scored_avg": 0.6,
+        "goals_conceded_avg": 2.4,
+        "opponent_strength_avg": 1437.869139166515
+    },
+    "Slovenia": {
+        "elo": 1706.856151464096,
+        "form_points": 5.0,
+        "goals_scored_avg": 1.0,
+        "goals_conceded_avg": 1.4,
+        "opponent_strength_avg": 1592.7741418419912
+    },
+    "Shetland": {
+        "elo": 1491.3950622443356,
+        "form_points": 11.0,
+        "goals_scored_avg": 2.8,
+        "goals_conceded_avg": 1.2,
+        "opponent_strength_avg": 1522.9482961657789
+    },
+    "Isle of Wight": {
+        "elo": 1600.7242381583585,
+        "form_points": 12.0,
+        "goals_scored_avg": 1.8,
+        "goals_conceded_avg": 0.8,
+        "opponent_strength_avg": 1503.530915442593
+    },
+    "Moldova": {
+        "elo": 1352.925823459861,
+        "form_points": 1.0,
+        "goals_scored_avg": 1.0,
+        "goals_conceded_avg": 2.6,
+        "opponent_strength_avg": 1539.9446323716663
+    },
+    "Ukraine": {
+        "elo": 1763.2747600912214,
+        "form_points": 9.0,
+        "goals_scored_avg": 1.2,
+        "goals_conceded_avg": 1.4,
+        "opponent_strength_avg": 1726.879628992921
+    },
+    "Kazakhstan": {
+        "elo": 1488.4371127468703,
+        "form_points": 8.0,
+        "goals_scored_avg": 1.0,
+        "goals_conceded_avg": 0.6,
+        "opponent_strength_avg": 1517.4688467458775
+    },
+    "Tajikistan": {
+        "elo": 1468.758474063163,
+        "form_points": 13.0,
+        "goals_scored_avg": 3.0,
+        "goals_conceded_avg": 0.6,
+        "opponent_strength_avg": 1176.3329030244734
+    },
+    "Uzbekistan": {
+        "elo": 1775.7376906920892,
+        "form_points": 6.0,
+        "goals_scored_avg": 1.0,
+        "goals_conceded_avg": 1.0,
+        "opponent_strength_avg": 1686.6145626169289
+    },
+    "Turkmenistan": {
+        "elo": 1389.7633313334811,
+        "form_points": 10.0,
+        "goals_scored_avg": 1.4,
+        "goals_conceded_avg": 0.8,
+        "opponent_strength_avg": 1256.3529963307294
+    },
+    "Armenia": {
+        "elo": 1438.2667485169527,
+        "form_points": 1.0,
+        "goals_scored_avg": 0.6,
+        "goals_conceded_avg": 2.8,
+        "opponent_strength_avg": 1658.312150661999
+    },
+    "Gibraltar": {
+        "elo": 1167.690156088904,
+        "form_points": 6.0,
+        "goals_scored_avg": 1.8,
+        "goals_conceded_avg": 2.4,
+        "opponent_strength_avg": 1473.035771046567
+    },
+    "Isle of Man": {
+        "elo": 1601.985526713568,
+        "form_points": 12.0,
+        "goals_scored_avg": 4.2,
+        "goals_conceded_avg": 1.0,
+        "opponent_strength_avg": 1448.667148339109
+    },
+    "North Macedonia": {
+        "elo": 1615.276812894326,
+        "form_points": 3.0,
+        "goals_scored_avg": 0.2,
+        "goals_conceded_avg": 2.2,
+        "opponent_strength_avg": 1636.120694233309
+    },
+    "Czech Republic": {
+        "elo": 1743.5751824008887,
+        "form_points": 11.0,
+        "goals_scored_avg": 3.4,
+        "goals_conceded_avg": 1.2,
+        "opponent_strength_avg": 1598.023958220411
+    },
+    "Montserrat": {
+        "elo": 1308.1727496239946,
+        "form_points": 6.0,
+        "goals_scored_avg": 0.6,
+        "goals_conceded_avg": 0.8,
+        "opponent_strength_avg": 1354.7392174105485
+    },
+    "Serbia": {
+        "elo": 1740.227722379546,
+        "form_points": 6.0,
+        "goals_scored_avg": 0.8,
+        "goals_conceded_avg": 2.0,
+        "opponent_strength_avg": 1740.7870973605554
+    },
+    "Canary Islands": {
+        "elo": 1501.4671340180291,
+        "form_points": 6.0,
+        "goals_scored_avg": 3.0,
+        "goals_conceded_avg": 1.0,
+        "opponent_strength_avg": 1400.85715977154
+    },
+    "Bosnia and Herzegovina": {
+        "elo": 1610.7982749397434,
+        "form_points": 5.0,
+        "goals_scored_avg": 0.8,
+        "goals_conceded_avg": 0.8,
+        "opponent_strength_avg": 1757.508770426985
+    },
+    "Andorra": {
+        "elo": 1169.9998879400175,
+        "form_points": 4.0,
+        "goals_scored_avg": 0.4,
+        "goals_conceded_avg": 1.4,
+        "opponent_strength_avg": 1358.5238870024425
+    },
+    "British Virgin Islands": {
+        "elo": 1072.781072865111,
+        "form_points": 10.0,
+        "goals_scored_avg": 2.6,
+        "goals_conceded_avg": 1.2,
+        "opponent_strength_avg": 1139.676066715917
+    },
+    "Fr\u00f8ya": {
+        "elo": 1347.0328085507028,
+        "form_points": 3.0,
+        "goals_scored_avg": 1.4,
+        "goals_conceded_avg": 4.8,
+        "opponent_strength_avg": 1456.1640312493753
+    },
+    "Hitra": {
+        "elo": 1409.874921394492,
+        "form_points": 3.0,
+        "goals_scored_avg": 2.4,
+        "goals_conceded_avg": 4.0,
+        "opponent_strength_avg": 1534.7532241765307
+    },
+    "United States Virgin Islands": {
+        "elo": 1078.8597331119674,
+        "form_points": 7.0,
+        "goals_scored_avg": 2.2,
+        "goals_conceded_avg": 2.2,
+        "opponent_strength_avg": 1248.738386250964
+    },
+    "Corsica": {
+        "elo": 1545.750162243872,
+        "form_points": 11.0,
+        "goals_scored_avg": 1.2,
+        "goals_conceded_avg": 0.4,
+        "opponent_strength_avg": 1609.6410976310103
+    },
+    "Eritrea": {
+        "elo": 1286.1468473700015,
+        "form_points": 0.0,
+        "goals_scored_avg": 0.4,
+        "goals_conceded_avg": 2.2,
+        "opponent_strength_avg": 1462.912308539708
+    },
+    "Bahamas": {
+        "elo": 1120.6868946955658,
+        "form_points": 0.0,
+        "goals_scored_avg": 0.4,
+        "goals_conceded_avg": 5.0,
+        "opponent_strength_avg": 1227.5097193584247
+    },
+    "Gotland": {
+        "elo": 1464.329048462599,
+        "form_points": 6.0,
+        "goals_scored_avg": 3.8,
+        "goals_conceded_avg": 1.6,
+        "opponent_strength_avg": 1443.5020176098792
+    },
+    "Saare County": {
+        "elo": 1374.006575537241,
+        "form_points": 5.0,
+        "goals_scored_avg": 1.8,
+        "goals_conceded_avg": 2.0,
+        "opponent_strength_avg": 1520.1330253173533
+    },
+    "Rhodes": {
+        "elo": 1559.4724358269036,
+        "form_points": 12.0,
+        "goals_scored_avg": 2.2,
+        "goals_conceded_avg": 0.4,
+        "opponent_strength_avg": 1515.1918242711686
+    },
+    "Micronesia": {
+        "elo": 1456.536834783648,
+        "form_points": 3.0,
+        "goals_scored_avg": 1.6,
+        "goals_conceded_avg": 9.2,
+        "opponent_strength_avg": 1480.4424840085371
+    },
+    "Bhutan": {
+        "elo": 1004.7456771133128,
+        "form_points": 0.0,
+        "goals_scored_avg": 0.4,
+        "goals_conceded_avg": 3.4,
+        "opponent_strength_avg": 1284.8875443108209
+    },
+    "Western Sahara": {
+        "elo": 1470.577557033857,
+        "form_points": 6.0,
+        "goals_scored_avg": 2.2,
+        "goals_conceded_avg": 3.2,
+        "opponent_strength_avg": 1500.8151759513407
+    },
+    "Orkney": {
+        "elo": 1431.3545028490807,
+        "form_points": 9.0,
+        "goals_scored_avg": 2.0,
+        "goals_conceded_avg": 1.6,
+        "opponent_strength_avg": 1468.3919122468797
+    },
+    "Monaco": {
+        "elo": 1474.714456436432,
+        "form_points": 6.0,
+        "goals_scored_avg": 1.2,
+        "goals_conceded_avg": 3.6,
+        "opponent_strength_avg": 1454.1779063576032
+    },
+    "Tuvalu": {
+        "elo": 1351.9938058809496,
+        "form_points": 3.0,
+        "goals_scored_avg": 1.0,
+        "goals_conceded_avg": 6.0,
+        "opponent_strength_avg": 1451.2025474860552
+    },
+    "Sark": {
+        "elo": 1470.59996449847,
+        "form_points": 0.0,
+        "goals_scored_avg": 0.0,
+        "goals_conceded_avg": 18.33333333333333,
+        "opponent_strength_avg": 1497.7293502686896
+    },
+    "Mayotte": {
+        "elo": 1430.9131056307438,
+        "form_points": 7.0,
+        "goals_scored_avg": 1.2,
+        "goals_conceded_avg": 0.8,
+        "opponent_strength_avg": 1333.7414779256071
+    },
+    "Turks and Caicos Islands": {
+        "elo": 1137.0356271698597,
+        "form_points": 4.0,
+        "goals_scored_avg": 0.6,
+        "goals_conceded_avg": 2.2,
+        "opponent_strength_avg": 1145.8844065557437
+    },
+    "Timor-Leste": {
+        "elo": 1009.3131869111336,
+        "form_points": 3.0,
+        "goals_scored_avg": 0.6,
+        "goals_conceded_avg": 2.4,
+        "opponent_strength_avg": 1349.07176197343
+    },
+    "Occitania": {
+        "elo": 1613.388610455891,
+        "form_points": 9.0,
+        "goals_scored_avg": 1.0,
+        "goals_conceded_avg": 0.6,
+        "opponent_strength_avg": 1540.2594148916503
+    },
+    "Chechnya": {
+        "elo": 1490.287361813,
+        "form_points": 1.0,
+        "goals_scored_avg": 1.0,
+        "goals_conceded_avg": 8.0,
+        "opponent_strength_avg": 1499.9931698071027
+    },
+    "Western Isles": {
+        "elo": 1465.547388946636,
+        "form_points": 6.0,
+        "goals_scored_avg": 0.8,
+        "goals_conceded_avg": 0.8,
+        "opponent_strength_avg": 1578.8097344856762
+    },
+    "Falkland Islands": {
+        "elo": 1344.349335442427,
+        "form_points": 0.0,
+        "goals_scored_avg": 0.6,
+        "goals_conceded_avg": 3.4,
+        "opponent_strength_avg": 1449.0799967463972
+    },
+    "Kosovo": {
+        "elo": 1700.0576503045431,
+        "form_points": 7.0,
+        "goals_scored_avg": 1.6,
+        "goals_conceded_avg": 1.4,
+        "opponent_strength_avg": 1776.1183794548874
+    },
+    "Republic of St. Pauli": {
+        "elo": 1495.0600898147163,
+        "form_points": 4.0,
+        "goals_scored_avg": 3.0,
+        "goals_conceded_avg": 1.0,
+        "opponent_strength_avg": 1440.5569299353294
+    },
+    "Tibet": {
+        "elo": 1368.7651651380745,
+        "form_points": 2.0,
+        "goals_scored_avg": 1.8,
+        "goals_conceded_avg": 3.2,
+        "opponent_strength_avg": 1470.8016966210375
+    },
+    "G\u0103g\u0103uzia": {
+        "elo": 1473.9439802329805,
+        "form_points": 0.0,
+        "goals_scored_avg": 0.5,
+        "goals_conceded_avg": 4.0,
+        "opponent_strength_avg": 1384.3912805454604
+    },
+    "S\u00e1pmi": {
+        "elo": 1461.4543349765563,
+        "form_points": 3.0,
+        "goals_scored_avg": 1.0,
+        "goals_conceded_avg": 2.8,
+        "opponent_strength_avg": 1543.564948616307
+    },
+    "Northern Mariana Islands": {
+        "elo": 1194.1286202331137,
+        "form_points": 4.0,
+        "goals_scored_avg": 1.4,
+        "goals_conceded_avg": 4.2,
+        "opponent_strength_avg": 1329.199240597001
+    },
+    "Romani people": {
+        "elo": 1479.433349400515,
+        "form_points": 3.0,
+        "goals_scored_avg": 2.0,
+        "goals_conceded_avg": 4.6,
+        "opponent_strength_avg": 1538.6845588725923
+    },
+    "Menorca": {
+        "elo": 1532.9765705074742,
+        "form_points": 4.0,
+        "goals_scored_avg": 1.2,
+        "goals_conceded_avg": 1.4,
+        "opponent_strength_avg": 1552.3366796308069
+    },
+    "Provence": {
+        "elo": 1429.9212030208605,
+        "form_points": 6.0,
+        "goals_scored_avg": 6.4,
+        "goals_conceded_avg": 2.6,
+        "opponent_strength_avg": 1489.6862215163449
+    },
+    "Arameans Suryoye": {
+        "elo": 1519.462468334469,
+        "form_points": 7.0,
+        "goals_scored_avg": 1.0,
+        "goals_conceded_avg": 1.4,
+        "opponent_strength_avg": 1573.860625658854
+    },
+    "Padania": {
+        "elo": 1691.98909338703,
+        "form_points": 8.0,
+        "goals_scored_avg": 2.0,
+        "goals_conceded_avg": 0.6,
+        "opponent_strength_avg": 1469.382799489466
+    },
+    "Iraqi Kurdistan": {
+        "elo": 1654.7215126729882,
+        "form_points": 9.0,
+        "goals_scored_avg": 1.8,
+        "goals_conceded_avg": 0.6,
+        "opponent_strength_avg": 1587.0708049707891
+    },
+    "Gozo": {
+        "elo": 1437.061609812837,
+        "form_points": 7.0,
+        "goals_scored_avg": 0.8,
+        "goals_conceded_avg": 0.6,
+        "opponent_strength_avg": 1578.2619813664255
+    },
+    "Bonaire": {
+        "elo": 1256.2510758355838,
+        "form_points": 3.0,
+        "goals_scored_avg": 1.2,
+        "goals_conceded_avg": 3.0,
+        "opponent_strength_avg": 1351.3101473535396
+    },
+    "Chagos Islands": {
+        "elo": 1431.4048642681526,
+        "form_points": 0.0,
+        "goals_scored_avg": 1.4,
+        "goals_conceded_avg": 6.0,
+        "opponent_strength_avg": 1491.4820454531982
+    },
+    "Sealand": {
+        "elo": 1483.2425704450202,
+        "form_points": 9.0,
+        "goals_scored_avg": 3.0,
+        "goals_conceded_avg": 1.6,
+        "opponent_strength_avg": 1424.24885930375
+    },
+    "Kurdistan": {
+        "elo": 1522.5795238124233,
+        "form_points": 10.0,
+        "goals_scored_avg": 2.75,
+        "goals_conceded_avg": 0.5,
+        "opponent_strength_avg": 1436.0274300671365
+    },
+    "Darfur": {
+        "elo": 1388.7460110081383,
+        "form_points": 0.0,
+        "goals_scored_avg": 0.2,
+        "goals_conceded_avg": 14.8,
+        "opponent_strength_avg": 1512.669413684865
+    },
+    "Raetia": {
+        "elo": 1405.9787549715095,
+        "form_points": 5.0,
+        "goals_scored_avg": 3.0,
+        "goals_conceded_avg": 2.8,
+        "opponent_strength_avg": 1476.7003828268712
+    },
+    "Tamil Eelam": {
+        "elo": 1516.8061907669942,
+        "form_points": 15.0,
+        "goals_scored_avg": 3.0,
+        "goals_conceded_avg": 0.6,
+        "opponent_strength_avg": 1448.148103729735
+    },
+    "South Sudan": {
+        "elo": 1301.89790823975,
+        "form_points": 3.0,
+        "goals_scored_avg": 0.4,
+        "goals_conceded_avg": 2.0,
+        "opponent_strength_avg": 1581.794653557939
+    },
+    "Saint Barth\u00e9lemy": {
+        "elo": 1459.7738821053424,
+        "form_points": 7.0,
+        "goals_scored_avg": 2.8,
+        "goals_conceded_avg": 2.2,
+        "opponent_strength_avg": 1202.3232370890012
+    },
+    "Abkhazia": {
+        "elo": 1588.9015543797973,
+        "form_points": 11.0,
+        "goals_scored_avg": 1.6,
+        "goals_conceded_avg": 0.6,
+        "opponent_strength_avg": 1496.9095371565222
+    },
+    "Saint Pierre and Miquelon": {
+        "elo": 1439.010636728486,
+        "form_points": 0.0,
+        "goals_scored_avg": 0.2,
+        "goals_conceded_avg": 10.2,
+        "opponent_strength_avg": 1461.6909411470167
+    },
+    "Artsakh": {
+        "elo": 1532.115595895602,
+        "form_points": 10.0,
+        "goals_scored_avg": 2.4,
+        "goals_conceded_avg": 1.8,
+        "opponent_strength_avg": 1512.7122983595116
+    },
+    "Madrid": {
+        "elo": 1500.0,
+        "form_points": 0.0,
+        "goals_scored_avg": 0.0,
+        "goals_conceded_avg": 0.0,
+        "opponent_strength_avg": 1500.0
+    },
+    "Quebec": {
+        "elo": 1515.686079315171,
+        "form_points": 6.0,
+        "goals_scored_avg": 12.0,
+        "goals_conceded_avg": 0.5,
+        "opponent_strength_avg": 1427.671256785757
+    },
+    "Saugeais": {
+        "elo": 1500.0,
+        "form_points": 0.0,
+        "goals_scored_avg": 0.0,
+        "goals_conceded_avg": 0.0,
+        "opponent_strength_avg": 1500.0
+    },
+    "Ellan Vannin": {
+        "elo": 1539.0695473339308,
+        "form_points": 11.0,
+        "goals_scored_avg": 2.4,
+        "goals_conceded_avg": 1.2,
+        "opponent_strength_avg": 1504.410442088291
+    },
+    "Vatican City": {
+        "elo": 1454.0633431168794,
+        "form_points": 2.0,
+        "goals_scored_avg": 0.6,
+        "goals_conceded_avg": 3.0,
+        "opponent_strength_avg": 1430.6901377526406
+    },
+    "Somaliland": {
+        "elo": 1498.1872065836742,
+        "form_points": 7.0,
+        "goals_scored_avg": 2.4,
+        "goals_conceded_avg": 2.8,
+        "opponent_strength_avg": 1478.9565879693284
+    },
+    "Franconia": {
+        "elo": 1494.7208205468391,
+        "form_points": 3.0,
+        "goals_scored_avg": 2.0,
+        "goals_conceded_avg": 4.0,
+        "opponent_strength_avg": 1409.7717796763577
+    },
+    "South Ossetia": {
+        "elo": 1512.5994372684063,
+        "form_points": 11.0,
+        "goals_scored_avg": 1.4,
+        "goals_conceded_avg": 0.6,
+        "opponent_strength_avg": 1544.9506312757935
+    },
+    "County of Nice": {
+        "elo": 1597.0727046887814,
+        "form_points": 13.0,
+        "goals_scored_avg": 2.6,
+        "goals_conceded_avg": 0.8,
+        "opponent_strength_avg": 1523.9490054442826
+    },
+    "Seborga": {
+        "elo": 1500.0,
+        "form_points": 0.0,
+        "goals_scored_avg": 0.0,
+        "goals_conceded_avg": 0.0,
+        "opponent_strength_avg": 1500.0
+    },
+    "Sz\u00e9kely Land": {
+        "elo": 1437.9070758061823,
+        "form_points": 4.0,
+        "goals_scored_avg": 1.6,
+        "goals_conceded_avg": 2.8,
+        "opponent_strength_avg": 1483.01468355141
+    },
+    "Panjab": {
+        "elo": 1519.1517040871222,
+        "form_points": 5.0,
+        "goals_scored_avg": 2.6,
+        "goals_conceded_avg": 2.2,
+        "opponent_strength_avg": 1548.334489878434
+    },
+    "Felvid\u00e9k": {
+        "elo": 1484.992581807334,
+        "form_points": 7.0,
+        "goals_scored_avg": 0.8,
+        "goals_conceded_avg": 1.0,
+        "opponent_strength_avg": 1537.4006671990694
+    },
+    "Luhansk PR": {
+        "elo": 1480.215655391025,
+        "form_points": 4.0,
+        "goals_scored_avg": 1.0,
+        "goals_conceded_avg": 1.8,
+        "opponent_strength_avg": 1495.5483316050218
+    },
+    "Donetsk PR": {
+        "elo": 1492.212740068593,
+        "form_points": 5.0,
+        "goals_scored_avg": 1.2,
+        "goals_conceded_avg": 1.2,
+        "opponent_strength_avg": 1506.3469211999789
+    },
+    "United Koreans in Japan": {
+        "elo": 1504.666173641421,
+        "form_points": 6.0,
+        "goals_scored_avg": 1.2,
+        "goals_conceded_avg": 0.6,
+        "opponent_strength_avg": 1490.2724972227866
+    },
+    "Western Armenia": {
+        "elo": 1510.451085174588,
+        "form_points": 8.0,
+        "goals_scored_avg": 3.0,
+        "goals_conceded_avg": 0.8,
+        "opponent_strength_avg": 1527.396011319818
+    },
+    "D\u00e9lvid\u00e9k": {
+        "elo": 1507.8312103841658,
+        "form_points": 3.0,
+        "goals_scored_avg": 3.0,
+        "goals_conceded_avg": 1.0,
+        "opponent_strength_avg": 1423.43260345963
+    },
+    "Barawa": {
+        "elo": 1456.9876152460215,
+        "form_points": 3.0,
+        "goals_scored_avg": 0.6,
+        "goals_conceded_avg": 4.4,
+        "opponent_strength_avg": 1529.575900861164
+    },
+    "Ry\u016bky\u016b": {
+        "elo": 1500.0,
+        "form_points": 0.0,
+        "goals_scored_avg": 0.0,
+        "goals_conceded_avg": 0.0,
+        "opponent_strength_avg": 1500.0
+    },
+    "K\u00e1rp\u00e1talja": {
+        "elo": 1546.2396499647907,
+        "form_points": 13.0,
+        "goals_scored_avg": 3.0,
+        "goals_conceded_avg": 1.0,
+        "opponent_strength_avg": 1512.63495803475
+    },
+    "Yorkshire": {
+        "elo": 1528.1962786940232,
+        "form_points": 12.0,
+        "goals_scored_avg": 5.0,
+        "goals_conceded_avg": 2.0,
+        "opponent_strength_avg": 1496.3515629188037
+    },
+    "Matabeleland": {
+        "elo": 1511.74921183571,
+        "form_points": 11.0,
+        "goals_scored_avg": 1.2,
+        "goals_conceded_avg": 0.4,
+        "opponent_strength_avg": 1469.8731022392617
+    },
+    "Cascadia": {
+        "elo": 1510.3632490693135,
+        "form_points": 10.0,
+        "goals_scored_avg": 3.2,
+        "goals_conceded_avg": 1.4,
+        "opponent_strength_avg": 1500.2302186498514
+    },
+    "Kabylia": {
+        "elo": 1489.3452604189722,
+        "form_points": 5.0,
+        "goals_scored_avg": 1.6,
+        "goals_conceded_avg": 2.6,
+        "opponent_strength_avg": 1484.1879373517684
+    },
+    "Parishes of Jersey": {
+        "elo": 1501.045676624851,
+        "form_points": 3.0,
+        "goals_scored_avg": 1.0,
+        "goals_conceded_avg": 1.0,
+        "opponent_strength_avg": 1523.4508160254788
+    },
+    "Chameria": {
+        "elo": 1504.1219957792723,
+        "form_points": 8.0,
+        "goals_scored_avg": 2.0,
+        "goals_conceded_avg": 0.8,
+        "opponent_strength_avg": 1494.6428613132953
+    },
+    "Saint Helena": {
+        "elo": 1442.4606625798117,
+        "form_points": 0.0,
+        "goals_scored_avg": 0.2,
+        "goals_conceded_avg": 4.8,
+        "opponent_strength_avg": 1563.557610742932
+    },
+    "West Papua": {
+        "elo": 1490.0,
+        "form_points": 0.0,
+        "goals_scored_avg": 2.0,
+        "goals_conceded_avg": 8.0,
+        "opponent_strength_avg": 1500.0
+    },
+    "Elba Island": {
+        "elo": 1508.6854875539264,
+        "form_points": 3.0,
+        "goals_scored_avg": 4.0,
+        "goals_conceded_avg": 2.0,
+        "opponent_strength_avg": 1454.0633431168794
+    },
+    "Yoruba Nation": {
+        "elo": 1500.053374102133,
+        "form_points": 1.0,
+        "goals_scored_avg": 1.0,
+        "goals_conceded_avg": 1.0,
+        "opponent_strength_avg": 1501.8544238523434
+    },
+    "Biafra": {
+        "elo": 1500.3396257762406,
+        "form_points": 3.0,
+        "goals_scored_avg": 0.5,
+        "goals_conceded_avg": 0.5,
+        "opponent_strength_avg": 1500.9272119261718
+    },
+    "Mapuche": {
+        "elo": 1490.0,
+        "form_points": 0.0,
+        "goals_scored_avg": 0.0,
+        "goals_conceded_avg": 1.0,
+        "opponent_strength_avg": 1500.0
+    },
+    "Aymara": {
+        "elo": 1489.71225631668,
+        "form_points": 0.0,
+        "goals_scored_avg": 1.0,
+        "goals_conceded_avg": 3.0,
+        "opponent_strength_avg": 1490.0
+    },
+    "Ticino": {
+        "elo": 1473.3184582583883,
+        "form_points": 0.0,
+        "goals_scored_avg": 1.0,
+        "goals_conceded_avg": 8.0,
+        "opponent_strength_avg": 1379.297213229898
+    },
+    "Hmong": {
+        "elo": 1496.4283974557852,
+        "form_points": 3.0,
+        "goals_scored_avg": 2.5,
+        "goals_conceded_avg": 3.5,
+        "opponent_strength_avg": 1431.2174492548097
+    },
+    "Marshall Islands": {
+        "elo": 1481.3703436503274,
+        "form_points": 0.0,
+        "goals_scored_avg": 0.0,
+        "goals_conceded_avg": 4.0,
+        "opponent_strength_avg": 1046.649859191495
+    },
+    "Asturias": {
+        "elo": 1500.0,
+        "form_points": 0.0,
+        "goals_scored_avg": 0.0,
+        "goals_conceded_avg": 0.0,
+        "opponent_strength_avg": 1500.0
+    },
+    "South Yemen": {
+        "elo": 1486.9307437669977,
+        "form_points": 0.0,
+        "goals_scored_avg": 0.5,
+        "goals_conceded_avg": 3.0,
+        "opponent_strength_avg": 1631.4115643420823
+    },
+    "Ambazonia": {
+        "elo": 1389.960508583005,
+        "form_points": 1.0,
+        "goals_scored_avg": 0.4,
+        "goals_conceded_avg": 2.8,
+        "opponent_strength_avg": 1487.8206752817557
+    },
+    "Crimea": {
+        "elo": 1514.873623388387,
+        "form_points": 9.0,
+        "goals_scored_avg": 1.5,
+        "goals_conceded_avg": 2.0,
+        "opponent_strength_avg": 1453.142660528513
+    },
+    "Two Sicilies": {
+        "elo": 1439.1394038624323,
+        "form_points": 3.0,
+        "goals_scored_avg": 0.6,
+        "goals_conceded_avg": 2.2,
+        "opponent_strength_avg": 1535.5404836662358
+    },
+    "Cilento": {
+        "elo": 1500.0,
+        "form_points": 0.0,
+        "goals_scored_avg": 0.0,
+        "goals_conceded_avg": 0.0,
+        "opponent_strength_avg": 1500.0
+    },
+    "Surrey": {
+        "elo": 1500.0,
+        "form_points": 0.0,
+        "goals_scored_avg": 0.0,
+        "goals_conceded_avg": 0.0,
+        "opponent_strength_avg": 1500.0
+    },
+    "East Turkestan": {
+        "elo": 1484.1185075701862,
+        "form_points": 6.0,
+        "goals_scored_avg": 3.75,
+        "goals_conceded_avg": 2.75,
+        "opponent_strength_avg": 1456.3661570255545
+    },
+    "Maule Sur": {
+        "elo": 1510.0,
+        "form_points": 3.0,
+        "goals_scored_avg": 1.0,
+        "goals_conceded_avg": 0.0,
+        "opponent_strength_avg": 1500.0
+    }
+}
