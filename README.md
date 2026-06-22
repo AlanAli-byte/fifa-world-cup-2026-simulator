@@ -620,26 +620,9 @@ world-cup-engine/
 
 ---
 
-## Model File
+## Production Optimization
 
-The trained production model is excluded from the repository because of its size.
-
-To regenerate the model:
-
-```bash
-python backend/retrain_engine.py
-```
-# Running Locally
-
-### Backend
-
-```bash
-cd backend
-
-pip install -r requirements.txt
-
-uvicorn api:app --reload
-```
+The deployment artifact stores only the trained Poisson model coefficients rather than the full Statsmodels object. This reduced the production model size from hundreds of megabytes to roughly 20 KB while preserving identical prediction behavior.
 
 ---
 
