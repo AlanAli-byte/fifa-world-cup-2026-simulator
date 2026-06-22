@@ -620,6 +620,15 @@ world-cup-engine/
 
 ---
 
+## Model File
+
+The trained production model is excluded from the repository because of its size.
+
+To regenerate the model:
+
+```bash
+python backend/retrain_engine.py
+```
 # Running Locally
 
 ### Backend
