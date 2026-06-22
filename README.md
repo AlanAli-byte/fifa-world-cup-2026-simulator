@@ -418,7 +418,7 @@ The football match simply followed one of the lower-probability outcomes.
 
 ### Model Prediction
 
-![Ecuador vs Curacao Prediction](assets/EU.jpeg)
+![Ecuador vs Curacao Prediction](assets/EC.jpeg)
 
 Ecuador were overwhelming favorites.
 
