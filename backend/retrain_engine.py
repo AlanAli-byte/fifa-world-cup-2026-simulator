@@ -115,8 +115,10 @@ os.makedirs("models", exist_ok=True)
 
 model_path = "models/production_poisson_engine.pkl"
 
+glm.remove_data()
+
 artifact = {
-    "model": glm,
+    "model_params": glm.params,
     "valid_teams": list(valid_teams)
 }
 

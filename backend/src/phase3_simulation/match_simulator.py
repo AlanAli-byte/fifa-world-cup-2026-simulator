@@ -21,7 +21,7 @@ class MatchSimulator:
         self.model_cache_path = model_cache_path
         self.min_matches = min_matches
 
-        self.model = None
+        self.params = None
         self.intercept = 0.0
         self.home_adv_coeff = 0.0
         self.valid_teams = set()
@@ -34,8 +34,8 @@ class MatchSimulator:
 
             with open(self.model_cache_path, 'rb') as f:
                 cache_data = pickle.load(f)
-                self.model = cache_data['model']
-                self.valid_teams = cache_data['valid_teams']
+                self.params = cache_data['model_params']
+                self.valid_teams = set(cache_data['valid_teams'])
 
             self._unpack_parameters()
 
@@ -111,12 +111,14 @@ class MatchSimulator:
 
         formula = "goals ~ is_home_advantage + team + opponent"
 
-        self.model = smf.glm(
+        glm = smf.glm(
             formula=formula,
             data=poisson_train,
             family=sm.families.Poisson(),
             var_weights=poisson_train['weight']
         ).fit()
+
+        self.params = glm.params
 
         os.makedirs(
             os.path.dirname(self.model_cache_path),
@@ -126,8 +128,8 @@ class MatchSimulator:
         with open(self.model_cache_path, 'wb') as f:
             pickle.dump(
                 {
-                    'model': self.model,
-                    'valid_teams': self.valid_teams
+                    'model_params': self.params,
+                    'valid_teams': list(self.valid_teams)
                 },
                 f
             )
@@ -140,15 +142,18 @@ class MatchSimulator:
         self._unpack_parameters()
 
     def _unpack_parameters(self):
-        self.intercept = float(self.model.params['Intercept'])
+        self.intercept = float(
+            self.params['Intercept']
+        )
+
         self.home_adv_coeff = float(
-            self.model.params['is_home_advantage']
+            self.params['is_home_advantage']
         )
 
     def _get_parameter_coefficient(self, prefix, nation_name):
         param_key = f"{prefix}[T.{nation_name}]"
         return float(
-            self.model.params.get(param_key, 0.0)
+            self.params.get(param_key, 0.0)
         )
 
     def compute_match_analytics(
