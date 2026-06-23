@@ -765,6 +765,10 @@ B --> H
 H --> I[Probability Dashboard]
 ```
 
-**Built by Alan Ali**
-**CSE/3rd year**
-*World Cup 2026 Simulation Engine*
+---
+
+<p align="center">
+<strong>Built by Alan Ali</strong><br>
+Computer Science Engineering (3rd Year)<br>
+FIFA World Cup 2026 Simulation Engine
+</p>
