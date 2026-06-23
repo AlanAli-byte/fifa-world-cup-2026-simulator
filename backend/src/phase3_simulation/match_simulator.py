@@ -1,9 +1,5 @@
 # src/phase3_simulation/match_simulator.py
-
-import pandas as pd
 import numpy as np
-import statsmodels.api as sm
-import statsmodels.formula.api as smf
 from scipy.stats import poisson
 import os
 import pickle
@@ -33,7 +29,9 @@ class MatchSimulator:
             print(f"Loading cached production engine artifact from {self.model_cache_path}...")
 
             with open(self.model_cache_path, 'rb') as f:
+                print("Loading model artifact...")
                 cache_data = pickle.load(f)
+                print("Model artifact loaded successfully.")
                 self.params = cache_data['model_params']
                 self.valid_teams = set(cache_data['valid_teams'])
 
@@ -44,6 +42,10 @@ class MatchSimulator:
             self._train_and_cache_engine()
 
     def _train_and_cache_engine(self):
+        import statsmodels.api as sm
+        import statsmodels.formula.api as smf
+        import pandas as pd
+
         if not os.path.exists(self.matches_path):
             raise FileNotFoundError(f"Master dataset missing at {self.matches_path}")
 
