@@ -35,6 +35,22 @@ class MatchSimulator:
                 self.params = cache_data['model_params']
                 self.valid_teams = set(cache_data['valid_teams'])
 
+                EXCLUDED_TEAMS = {
+                    "Abkhazia",
+                    "Northern Cyprus",
+                    "Western Sahara",
+                    "Padania",
+                    "Tibet"
+                }
+
+                self.valid_teams = {
+                    team for team in self.valid_teams
+                    if team not in EXCLUDED_TEAMS
+                }
+
+                print("Abkhazia present?", "Abkhazia" in self.valid_teams)
+                print("Northern Cyprus present?", "Northern Cyprus" in self.valid_teams)
+
             self._unpack_parameters()
 
         else:
