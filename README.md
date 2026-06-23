@@ -14,7 +14,7 @@
 
 ## Live Demo
 
-Frontend: <frontend URL>
+Frontend: <[frontend URL](https://fifa-world-cup-2026-simulator-phi.vercel.app)>
 
 Backend API: https://wc-engine-api.onrender.com
 
