@@ -12,6 +12,12 @@
 
 ---
 
+## Live Demo
+
+Frontend: <frontend URL>
+
+Backend API: https://wc-engine-api.onrender.com
+
 ## Overview
 
 This project started with a simple question:
@@ -39,7 +45,7 @@ A tournament simulator must answer much harder questions:
 
 A simple win/draw/loss classifier cannot answer those questions.
 
-Over roughly two weeks, this project evolved from a standard machine learning experiment into a full-stack stochastic simulation engine capable of generating **10,000 complete World Cup universes** and estimating the probability of every team lifting the trophy.
+Over roughly two weeks, this project evolved from a standard machine learning experiment into a full-stack stochastic simulation engine capable of generating **5,000 complete World Cup universes** and estimating the probability of every team lifting the trophy.
 
 ---
 
@@ -67,7 +73,7 @@ Over roughly two weeks, this project evolved from a standard machine learning ex
 
 ✅ React + Tailwind Frontend
 
-✅ Real-Time Probability Dashboard
+✅ Interactive Probability Dashboard
 
 ✅ Team Leaderboards
 
@@ -328,7 +334,7 @@ The engine:
 
 Then repeats the entire process:
 
-### 10,000 Times
+### 5,000 Times
 
 Each run represents a different possible football universe.
 
@@ -514,13 +520,14 @@ The backend serves:
 
 * Team lists
 * Match predictions
-* Tournament simulations
+* Cached tournament forecasts
 * Probability tables
 
 Main responsibilities:
 
 * Load trained model
-* Run simulations
+* Serve match predictions
+* Serve cached tournament forecasts
 * Return structured JSON
 * Manage API requests
 
@@ -578,25 +585,20 @@ and kept production code isolated from research code.
 # Architecture
 
 ```text
-                React Frontend
-                       │
-                       ▼
-                 FastAPI API
-                       │
-                       ▼
-              Poisson GLM Model
-                       │
-                       ▼
-              Match Simulator
-                       │
-                       ▼
-          Tournament Simulation Engine
-                       │
-                       ▼
-          10,000 Monte Carlo Runs
-                       │
-                       ▼
-              Probability Outputs
+React Frontend
+       │
+       ▼
+FastAPI Backend
+       │
+       ├── Match Prediction
+       │         ▼
+       │    Poisson Engine
+       │
+       └── Tournament Forecast
+                 ▼
+      Cached Monte Carlo Results
+                 ▼
+         Probability Dashboard
 ```
 
 ---
@@ -607,14 +609,15 @@ and kept production code isolated from research code.
 world-cup-engine/
 │
 ├── assets/
-│   ├── banner.png
-│   └── screenshots/
 │
 ├── backend/
+│   ├── cache/
+│   │   └── tournament_stats.json
+│   ├── models/
+│   └── src/
 │
 ├── frontend/
 │
-├── .gitignore
 └── README.md
 ```
 
@@ -625,6 +628,36 @@ world-cup-engine/
 The deployment artifact stores only the trained Poisson model coefficients rather than the full Statsmodels object. This reduced the production model size from hundreds of megabytes to roughly 20 KB while preserving identical prediction behavior.
 
 ---
+
+### Deployment
+
+The application is deployed using React, FastAPI, and Render.
+Production optimizations were implemented to reduce memory usage,
+improve startup time, and provide near-instant tournament forecasts.
+
+### API Endpoints
+
+| Endpoint | Description |
+|-----------|-------------|
+| `GET /api/teams` | Returns available national teams |
+| `GET /api/simulate` | Returns scoreline and outcome probabilities for a match |
+| `GET /api/tournament-stats` | Returns cached World Cup tournament forecasts generated from 5,000 Monte Carlo simulations |
+
+## Cached Tournament Forecasts
+
+Originally, every tournament forecast request triggered thousands of
+Monte Carlo World Cup simulations in real time.
+
+While statistically accurate, this approach introduced long response
+times and unnecessary resource consumption in production.
+
+To improve performance, tournament forecasts are now generated offline
+using 5,000 complete World Cup simulations and stored as a cached JSON
+artifact.
+
+The API serves these cached probabilities instantly, providing the same
+forecast results while dramatically reducing response time and server
+load.
 
 ### Frontend
 
@@ -720,15 +753,16 @@ flowchart TD
 A[React Frontend] --> B[FastAPI Backend]
 
 B --> C[Poisson GLM Model]
-
 C --> D[Match Simulator]
 
-D --> E[Tournament Engine]
+D --> E[Match Predictions]
 
-E --> F[Monte Carlo Simulation]
+F[Offline Tournament Engine] --> G[5000 Monte Carlo Simulations]
+G --> H[tournament_stats.json Cache]
 
-F --> G[Probability Dashboard]
+B --> H
 
+H --> I[Probability Dashboard]
 ```
 
 **Built by Alan Ali**
