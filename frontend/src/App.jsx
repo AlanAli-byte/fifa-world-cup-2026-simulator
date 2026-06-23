@@ -520,6 +520,29 @@ export default function App() {
                         </div>
 
                       </div>
+
+                      <div className="mt-8 h-3 rounded-full overflow-hidden flex bg-[#E5E7EB]">
+                        <motion.div
+                          initial={{ width: 0 }}
+                          animate={{ width: `${normHome * 100}%` }}
+                          transition={{ duration: 1 }}
+                          className="bg-[#2563EB]"
+                        />
+
+                        <motion.div
+                          initial={{ width: 0 }}
+                          animate={{ width: `${normDraw * 100}%` }}
+                          transition={{ duration: 1 }}
+                          className="bg-[#9CA3AF]"
+                        />
+
+                        <motion.div
+                          initial={{ width: 0 }}
+                          animate={{ width: `${normAway * 100}%` }}
+                          transition={{ duration: 1 }}
+                          className="bg-[#10B981]"
+                        />
+                      </div>
                   </motion.section>
 
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
