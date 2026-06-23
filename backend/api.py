@@ -1,9 +1,8 @@
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from src.phase3_simulation.match_simulator import MatchSimulator
-from src.phase3_simulation.monte_carlo import run_tournament_forecast_loop
-import anyio
-
+import json
+import os
 
 app = FastAPI(title="World Cup 2026 Prediction API")
 
@@ -17,10 +16,6 @@ app.add_middleware(
 
 print("Booting up Phase 3 Poisson Engine...")
 simulator = MatchSimulator()
-
-# Simulation Lock
-simulation_lock = anyio.Lock()
-
 
 @app.get("/api/teams")
 def get_teams():
@@ -58,28 +53,24 @@ def simulate_match(home: str, away: str, neutral: str = "true"):
 
 # Tournament Simulation
 @app.get("/api/tournament-stats")
-async def get_tournament_probabilities():
-    if simulation_lock.locked():
-        print("[API WARNING] Blocked a concurrent simulation request attempt.")
+def get_tournament_probabilities():
 
+    cache_path = "cache/tournament_stats.json"
+
+    if not os.path.exists(cache_path):
         raise HTTPException(
-            status_code=429,
-            detail=(
-                "A simulation is already actively running. "
-                "Please wait for it to complete."
-            )
+            status_code=500,
+            detail="Tournament cache not found."
         )
 
-    async with simulation_lock:
-        print("\n[API] Triggering on-demand 5000 World Cup simulations...")
+    with open(
+        cache_path,
+        "r",
+        encoding="utf-8"
+    ) as f:
+        stats = json.load(f)
 
-        stats = await anyio.to_thread.run_sync(
-            run_tournament_forecast_loop,
-            5000
-        )
-
-        print("[API] Simulation run complete. Dispatching results to frontend.")
-        return stats
+    return stats
 
 
 if __name__ == "__main__":
