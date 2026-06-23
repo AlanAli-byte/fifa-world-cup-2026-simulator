@@ -48,9 +48,6 @@ class MatchSimulator:
                     if team not in EXCLUDED_TEAMS
                 }
 
-                print("Abkhazia present?", "Abkhazia" in self.valid_teams)
-                print("Northern Cyprus present?", "Northern Cyprus" in self.valid_teams)
-
             self._unpack_parameters()
 
         else:

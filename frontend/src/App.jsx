@@ -230,6 +230,10 @@ export default function App() {
   const [homeTeam, setHomeTeam] = useState('');
   const [awayTeam, setAwayTeam] = useState('');
   const [isNeutral, setIsNeutral] = useState(true);
+
+  console.log("Home:", homeTeam);
+  console.log("Away:", awayTeam);
+  console.log("Teams:", teams);
   
   const [uiState, setUiState] = useState('select');
   const [matchData, setMatchData] = useState(null);
