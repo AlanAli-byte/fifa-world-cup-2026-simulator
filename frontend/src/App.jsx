@@ -337,7 +337,7 @@ export default function App() {
       {/* Header */}
       <header className="w-full bg-[#FFFFFF] border-b border-[#E5E7EB] px-6 py-4 sticky top-0 z-50">
         <div className="max-w-4xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-2 md:gap-4">
                 <img src="/cup.png" alt="World Cup" className="h-10 w-auto object-contain drop-shadow-sm" onError={(e) => { e.target.style.display = 'none'; }} />
                 <div className="flex items-center gap-3">
                     <div className="bg-[#F7F6F3] p-1.5 rounded text-[#2563EB] border border-[#E5E7EB]">
@@ -345,7 +345,9 @@ export default function App() {
                     </div>
                     <div className="flex flex-col">
                         <h1 className="text-lg font-semibold tracking-tight text-[#111827] leading-none">WC Engine</h1>
-                        <span className="text-[11px] text-[#6B7280] font-medium mt-0.5">AI Football Simulator</span>
+                        <span className="hidden md:block text-[11px] text-[#6B7280] font-medium mt-0.5">
+                          AI Football Simulator
+                        </span>
                     </div>
                 </div>
             </div>
@@ -384,7 +386,7 @@ export default function App() {
                   </div>
                 )}
 
-                <div className="bg-[#FFFFFF] border border-[#E5E7EB] rounded-2xl p-10 shadow-sm w-full relative">
+                <div className="bg-[#FFFFFF] border border-[#E5E7EB] rounded-2xl p-4 md:p-10 shadow-sm w-full relative">
                     <div className="flex justify-end mb-6">
                         <div className="flex bg-[#F7F6F3] p-1 rounded-md border border-[#E5E7EB]">
                             <button onClick={() => setIsNeutral(true)} className={`px-3 py-1.5 rounded text-xs font-medium transition-all ${isNeutral ? 'bg-white shadow-sm text-[#111827]' : 'text-[#6B7280]'}`}>Neutral</button>
@@ -392,31 +394,54 @@ export default function App() {
                         </div>
                     </div>
                     
-                    <div className="flex flex-col md:flex-row items-center justify-between gap-10">
+                    <div className="flex flex-col md:flex-row items-center justify-between gap-6 md:gap-10">
                         
                         <motion.div layout className="flex flex-col items-center w-full md:w-2/5">
-                            <FlagBox code={getFlagCode(homeTeam)} sizeClasses="w-[108px] h-[72px] mb-6 shadow-sm" />
+                            <FlagBox
+                              code={getFlagCode(homeTeam)}
+                              sizeClasses="w-[90px] h-[60px] md:w-[108px] md:h-[72px] mb-4 md:mb-6 shadow-sm"
+                            />
                             <div className="relative w-full text-center group bg-[#F7F6F3] border border-[#E5E7EB] rounded-lg py-3 px-4 hover:border-[#D1D5DB] transition-colors">
                                 <select value={homeTeam} onChange={e => setHomeTeam(e.target.value)} className="absolute inset-0 opacity-0 cursor-pointer w-full">
                                     {teams.map(t => <option key={t} value={t}>{t}</option>)}
                                 </select>
-                                <h2 className="text-xl font-semibold tracking-tight text-[#111827] flex justify-center items-center gap-2">
+                                <h2 className="text-lg md:text-xl font-semibold tracking-tight text-[#111827] flex justify-center items-center gap-2">
                                     {homeTeam} <span className="text-[#6B7280] text-xs">▼</span>
                                 </h2>
                             </div>
                         </motion.div>
 
-                        <motion.button layout onClick={swapTeams} whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} className="w-12 h-12 flex items-center justify-center rounded-full bg-[#FFFFFF] border border-[#E5E7EB] shadow-sm text-[#6B7280] hover:text-[#111827] z-10 shrink-0 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 md:static md:translate-x-0 md:translate-y-0">
-                            <ArrowRightLeft size={20} />
+                        <motion.button
+                          layout
+                          onClick={swapTeams}
+                          whileHover={{ scale: 1.05 }}
+                          whileTap={{ scale: 0.95 }}
+                          className="
+                            w-12 h-12
+                            flex items-center justify-center
+                            rounded-full
+                            bg-[#FFFFFF]
+                            border border-[#E5E7EB]
+                            shadow-sm
+                            text-[#6B7280]
+                            hover:text-[#111827]
+                            z-10
+                            shrink-0
+                            relative
+                            my-2
+                            md:static
+                          "
+                        >
+                        <ArrowRightLeft size={20} />
                         </motion.button>
 
                         <motion.div layout className="flex flex-col items-center w-full md:w-2/5">
-                            <FlagBox code={getFlagCode(awayTeam)} sizeClasses="w-[108px] h-[72px] mb-6 shadow-sm" />
+                            <FlagBox code={getFlagCode(awayTeam)} sizeClasses="w-[90px] h-[60px] md:w-[108px] md:h-[72px] mb-4 md:mb-6 shadow-sm" />
                             <div className="relative w-full text-center group bg-[#F7F6F3] border border-[#E5E7EB] rounded-lg py-3 px-4 hover:border-[#D1D5DB] transition-colors">
                                 <select value={awayTeam} onChange={e => setAwayTeam(e.target.value)} className="absolute inset-0 opacity-0 cursor-pointer w-full">
                                     {teams.map(t => <option key={t} value={t}>{t}</option>)}
                                 </select>
-                                <h2 className="text-xl font-semibold tracking-tight text-[#111827] flex justify-center items-center gap-2">
+                                <h2 className="text-lg md:text-xl font-semibold tracking-tight text-[#111827] flex justify-center items-center gap-2">
                                     {awayTeam} <span className="text-[#6B7280] text-xs">▼</span>
                                 </h2>
                             </div>
@@ -461,25 +486,39 @@ export default function App() {
             {uiState === 'results' && matchData && (
               <motion.div key="results" variants={staggerContainer} initial="hidden" animate="show" className="flex flex-col gap-6 w-full">
                   
-                  <motion.section variants={fadeUpItem} className="bg-[#FFFFFF] border border-[#E5E7EB] rounded-2xl p-8 shadow-sm">
-                      <div className="flex justify-between items-baseline mb-6 px-2">
-                          <div className="w-1/3 text-left">
-                              <div className="text-[15px] font-medium text-[#6B7280] mb-2">{matchData.home_team} Win</div>
-                              <div className="text-[42px] font-semibold tracking-tight text-[#111827] leading-none"><AnimatedCounter value={normHome * 100} />%</div>
+                  <motion.section variants={fadeUpItem} className="bg-[#FFFFFF] border border-[#E5E7EB] rounded-2xl p-5 md:p-8 shadow-sm">
+                      <div className="flex flex-row justify-between items-center mb-6 px-2">
+
+                        <div className="w-1/3 text-center">
+                          <div className="text-[15px] font-medium text-[#6B7280] mb-2">
+                            {matchData.home_team} Win
                           </div>
-                          <div className="w-1/3 text-center">
-                              <div className="text-[15px] font-medium text-[#6B7280] mb-2">Draw</div>
-                              <div className="text-[32px] font-semibold tracking-tight text-[#6B7280] leading-none"><AnimatedCounter value={normDraw * 100} />%</div>
+
+                          <div className="text-[28px] md:text-[42px] font-semibold tracking-tight text-[#111827] leading-none">
+                            <AnimatedCounter value={normHome * 100} />%
                           </div>
-                          <div className="w-1/3 text-right">
-                              <div className="text-[15px] font-medium text-[#6B7280] mb-2">{matchData.away_team} Win</div>
-                              <div className="text-[42px] font-semibold tracking-tight text-[#111827] leading-none"><AnimatedCounter value={normAway * 100} />%</div>
+                        </div>
+
+                        <div className="w-full md:w-1/3 text-center">
+                          <div className="text-[15px] font-medium text-[#6B7280] mb-2">
+                            Draw
                           </div>
-                      </div>
-                      <div className="h-3 w-full flex bg-[#F7F6F3] rounded-full overflow-hidden border border-[#E5E7EB]">
-                          <motion.div initial={{ width: 0 }} animate={{ width: `${normHome * 100}%` }} transition={{ duration: 1.2, ease: "easeOut" }} className="h-full bg-[#2563EB]" />
-                          <motion.div initial={{ width: 0 }} animate={{ width: `${normDraw * 100}%` }} transition={{ duration: 1.2, ease: "easeOut" }} className="h-full bg-[#E5E7EB]" />
-                          <motion.div initial={{ width: 0 }} animate={{ width: `${normAway * 100}%` }} transition={{ duration: 1.2, ease: "easeOut" }} className="h-full bg-[#10B981]" />
+
+                          <div className="text-[24px] md:text-[32px] font-semibold tracking-tight text-[#6B7280] leading-none">
+                            <AnimatedCounter value={normDraw * 100} />%
+                          </div>
+                        </div>
+
+                        <div className="w-1/3 text-center">
+                          <div className="text-[15px] font-medium text-[#6B7280] mb-2">
+                            {matchData.away_team} Win
+                          </div>
+
+                          <div className="text-[28px] md:text-[42px] font-semibold tracking-tight text-[#111827] leading-none">
+                            <AnimatedCounter value={normAway * 100} />%
+                          </div>
+                        </div>
+
                       </div>
                   </motion.section>
 
@@ -488,18 +527,18 @@ export default function App() {
                           <h2 className="text-[15px] font-medium text-[#6B7280] mb-6">Expected Goals</h2>
                           <div className="flex items-center justify-center gap-8">
                               <div className="text-center">
-                                  <span className="text-[48px] font-semibold tracking-tight text-[#111827] leading-none"><AnimatedCounter value={homeXg} decimals={2} /></span>
+                                  <span className="text-[36px] md:text-[48px] font-semibold tracking-tight text-[#111827] leading-none"><AnimatedCounter value={homeXg} decimals={2} /></span>
                                   <div className="text-[14px] font-medium text-[#6B7280] mt-2">{matchData.home_team}</div>
                               </div>
                               <span className="text-[#E5E7EB] text-3xl mb-6">—</span>
                               <div className="text-center">
-                                  <span className="text-[48px] font-semibold tracking-tight text-[#111827] leading-none"><AnimatedCounter value={awayXg} decimals={2} /></span>
+                                  <span className="text-[36px] md:text-[48px] font-semibold tracking-tight text-[#111827] leading-none"><AnimatedCounter value={awayXg} decimals={2} /></span>
                                   <div className="text-[14px] font-medium text-[#6B7280] mt-2">{matchData.away_team}</div>
                               </div>
                           </div>
                       </motion.section>
 
-                      <motion.section variants={fadeUpItem} className="bg-[#FFFFFF] border border-[#E5E7EB] rounded-2xl p-8 shadow-sm">
+                      <motion.section variants={fadeUpItem} className="bg-[#FFFFFF] border border-[#E5E7EB] rounded-2xl p-5 md:p-8 shadow-sm">
                           <h2 className="text-[15px] font-medium text-[#6B7280] mb-5">Most Likely Scorelines</h2>
                           <div className="flex flex-col gap-4">
                               {matchData.most_likely_scores.slice(0, 3).map((s, idx) => {
@@ -519,7 +558,7 @@ export default function App() {
                       </motion.section>
                   </div>
 
-                  <motion.section variants={fadeUpItem} className="bg-[#FFFFFF] border border-[#E5E7EB] rounded-2xl p-8 shadow-sm">
+                  <motion.section variants={fadeUpItem} className="bg-[#FFFFFF] border border-[#E5E7EB] rounded-2xl p-5 md:p-8 shadow-sm">
                       <h2 className="text-[15px] font-medium text-[#6B7280] mb-6">Model Insights</h2>
                       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                           <div className="flex gap-3">
@@ -555,7 +594,7 @@ export default function App() {
           </AnimatePresence>
         )}
         
-        <motion.footer variants={fadeUpItem} initial="hidden" animate="show" className="mt-8 flex justify-center gap-6 text-[12px] text-[#6B7280] font-semibold border-t border-[#E5E7EB] pt-6">
+        <motion.footer variants={fadeUpItem} initial="hidden" animate="show" className="mt-8 flex flex-col md:flex-row items-center justify-center gap-3 md:gap-6 text-[12px] text-[#6B7280] font-semibold border-t border-[#E5E7EB] pt-6">
             <span className="flex items-center gap-1.5"><Info size={13}/> Model: Time-Weighted Poisson</span>
             <span>Accuracy: 60.99%</span>
             <span>Log Loss: 0.8471</span>
