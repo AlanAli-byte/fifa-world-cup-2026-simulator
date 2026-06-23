@@ -7,7 +7,10 @@ import en from "i18n-iso-countries/langs/en.json";
 
 countries.registerLocale(en);
 
-const API_BASE = import.meta.env.VITE_API_URL || 'http://localhost:8000';
+const API_BASE = 'https://wc-engine-api.onrender.com';
+console.log(import.meta.env);
+console.log("VITE_API_URL =", import.meta.env.VITE_API_URL);
+console.log("API_BASE =", API_BASE);
 
 function getFlagCode(teamName) {
   if (!teamName) return "un";
@@ -66,29 +69,48 @@ const TournamentView = ({ stats, setStats, loading, setLoading, hasRun, setHasRu
   const isRequesting = useRef(false);
 
   const handleRunSimulation = async () => {
-    if (loading || isRequesting.current) return;
-    isRequesting.current = true;
+  if (loading || isRequesting.current) return;
+  isRequesting.current = true;
 
-    setLoading(true);
-    setHasRun(true);
-    setError(null);
-    try {
-      const response = await fetch(`${API_BASE}/api/tournament-stats`);
+  setLoading(true);
+  setHasRun(true);
+  setError(null);
 
-      if (response.status === 429) {
-          throw new Error("The server is currently running a heavy simulation. Please wait a minute and try again.");
-      }
+  const startTime = Date.now();
 
-      if (!response.ok) throw new Error('Failed to fetch tournament data');
-      const data = await response.json();
-      setStats(data);
-    } catch (err) {
-      setError(err.message);
-    } finally {
-      setLoading(false);
-      isRequesting.current = false;
+  try {
+    const response = await fetch(`${API_BASE}/api/tournament-stats`);
+
+    if (response.status === 429) {
+      throw new Error(
+        "The server is currently running a heavy simulation. Please wait a minute and try again."
+      );
     }
-  };
+
+    if (!response.ok) {
+      throw new Error("Failed to fetch tournament data");
+    }
+
+    const data = await response.json();
+
+    const elapsed = Date.now() - startTime;
+    const minLoadingTime = 3000;
+
+    if (elapsed < minLoadingTime) {
+      await new Promise(resolve =>
+        setTimeout(resolve, minLoadingTime - elapsed)
+      );
+    }
+
+    setStats(data);
+
+  } catch (err) {
+    setError(err.message);
+  } finally {
+    setLoading(false);
+    isRequesting.current = false;
+  }
+};
 
   const handleRecalculate = () => {
     setStats(null);

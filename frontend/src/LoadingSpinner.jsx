@@ -143,7 +143,7 @@ export default function LoadingSpinner() {
         </div>
 
         <div className="w-full h-1.5 bg-[#E5E7EB] rounded-full overflow-hidden mt-2">
-            <motion.div initial={{ width: "0%" }} animate={{ width: "95%" }} transition={{ duration: 60, ease: "linear" }} className="h-full bg-[#2563EB]" />
+            <motion.div initial={{ width: "0%" }} animate={{ width: "100%" }} transition={{ duration: 3, ease: "linear" }} className="h-full bg-[#2563EB]" />
         </div>
       </div>
 
