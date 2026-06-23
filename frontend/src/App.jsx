@@ -129,7 +129,7 @@ const TournamentView = ({ stats, setStats, loading, setLoading, hasRun, setHasRu
           <div className="flex flex-col gap-2">
             <h2 className="text-2xl font-bold tracking-tight text-[#111827]">Full Tournament Forecaster</h2>
             <p className="text-sm text-[#6B7280] max-w-md mx-auto">
-              Simulate 10,000 distinct World Cup 2026 universes using calibrated 8-Year time-decay Poisson engine.
+              Simulate 5,000 distinct World Cup 2026 universes using calibrated 8-Year time-decay Poisson engine.
             </p>
           </div>
           <motion.button 
@@ -154,7 +154,7 @@ const TournamentView = ({ stats, setStats, loading, setLoading, hasRun, setHasRu
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-2">
         <motion.div variants={fadeUpItem} className="bg-white border border-[#E5E7EB] p-5 rounded-2xl shadow-sm flex flex-col gap-1">
             <span className="text-xs font-semibold text-[#6B7280] uppercase tracking-wider">Universes Simulated</span>
-            <span className="text-2xl font-bold text-[#111827]">10,000</span>
+            <span className="text-2xl font-bold text-[#111827]">5,000</span>
         </motion.div>
         <motion.div variants={fadeUpItem} className="bg-white border border-[#E5E7EB] p-5 rounded-2xl shadow-sm flex flex-col gap-1">
             <span className="text-xs font-semibold text-[#6B7280] uppercase tracking-wider">90-Min Resolutions</span>
