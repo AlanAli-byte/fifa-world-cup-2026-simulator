@@ -349,10 +349,14 @@ Example:
 | Team      | Win Tournament |
 | --------- | -------------- |
 | Brazil    | 15.0%          |
-| Spain     | 11.0%          |
-| Argentina | 10.9%          |
+| Argentina | 11.50%          |
+| Spain     | 10.36%          |
 
-*(Insert latest leaderboard screenshot here)*
+### Tournament Forecast
+
+<p align="center">
+  <img src="assets/tour.jpeg" width="900">
+</p>
 
 ---
 
@@ -734,18 +738,8 @@ It was learning how to take an idea, challenge its assumptions, rebuild it multi
 
 ---
 
-## Screenshots
-
-
 ### Home Dashboard
 ![Home Dashboard](assets/home.jpeg)
-
-### Tournament Forecast
-
-<p align="center">
-  <img src="assets/tour.jpeg" width="900">
-</p>
-
 
 ---
 
